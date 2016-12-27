@@ -19,3 +19,6 @@ coverage.xml
 
 # dotenv
 .env.*
+
+# private files
+remember.md
