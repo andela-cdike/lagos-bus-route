@@ -1,6 +1,6 @@
 from django.test import TestCase
 
-from factories.factory import BusStopFactory
+from factories.factories import BusStopFactory
 
 
 class BusStopDataSetup(TestCase):

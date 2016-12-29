@@ -1,121 +1,122 @@
 from busstops.tests.bus_fixtures import BusStopDataSetup
-from factories.factory import RouteFactory
+from factories.factories import RouteFactory
 
 
 class RouteFactoryDataSetup(BusStopDataSetup):
 
-    def setUp(self):
+    def setUp(self, *args, **kwargs):
+        super(RouteFactoryDataSetup, self).setUp(*args, **kwargs)
         RouteFactory(
             busstop=self.ojuelegba,
             busstop_type='TE',
             route_id=1,
-            node_id=1
+            node_position=1
         )
         RouteFactory(
             busstop=self.ishaga,
             busstop_type='TR',
             route_id=1,
-            node_id=2
+            node_position=2
         )
         RouteFactory(
             busstop=self.municipal,
             busstop_type='TR',
             route_id=1,
-            node_id=3
+            node_position=3
         )
         RouteFactory(
             busstop=self.ogunlana,
             busstop_type='TR',
             route_id=1,
-            node_id=4
+            node_position=4
         )
         RouteFactory(
             busstop=self.lawanson,
             busstop_type='TE',
             route_id=1,
-            node_id=5
+            node_position=5
         )
         RouteFactory(
             busstop=self.lawanson,
             busstop_type='TE',
             route_id=2,
-            node_id=1
+            node_position=1
         )
         RouteFactory(
             busstop=self.itire_rd_jn,
             busstop_type='TR',
             route_id=2,
-            node_id=2
+            node_position=2
         )
         RouteFactory(
             busstop=self.okota_ln_rd,
             busstop_type='TR',
             route_id=2,
-            node_id=3
+            node_position=3
         )
         RouteFactory(
             busstop=self.cele,
             busstop_type='TE',
             route_id=2,
-            node_id=4
+            node_position=4
         )
         RouteFactory(
             busstop=self.ojuelegba,
             busstop_type='TE',
             route_id=3,
-            node_id=1
+            node_position=1
         )
         RouteFactory(
             busstop=self.empire,
             busstop_type='TR',
             route_id=3,
-            node_id=2
+            node_position=2
         )
         RouteFactory(
             busstop=self.mosalashi,
             busstop_type='TR',
             route_id=3,
-            node_id=4
+            node_position=4
         )
         RouteFactory(
             busstop=self.idi_oro,
             busstop_type='TR',
             route_id=3,
-            node_id=3
+            node_position=3
         )
         RouteFactory(
             busstop=self.olosha,
             busstop_type='TR',
             route_id=3,
-            node_id=4
+            node_position=4
         )
         RouteFactory(
             busstop=self.mushin,
             busstop_type='TE',
             route_id=3,
-            node_id=5
+            node_position=5
         )
         RouteFactory(
             busstop=self.ojuelegba,
             busstop_type='TE',
             route_id=4,
-            node_id=1
+            node_position=1
         )
         RouteFactory(
             busstop=self.yaba,
             busstop_type='TE',
             route_id=4,
-            node_id=2
+            node_position=2
         )
         RouteFactory(
             busstop=self.yaba,
             busstop_type='TE',
             route_id=5,
-            node_id=1
+            node_position=1
         )
         RouteFactory(
             busstop=self.sabo,
             busstop_type='TE',
             route_id=5,
-            node_id=2
+            node_position=2
         )

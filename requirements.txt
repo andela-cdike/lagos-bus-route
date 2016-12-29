@@ -1,2 +1,4 @@
 Django==1.10.4
 django-envie==0.0.9
+factory-boy==2.8.1
+psycopg2==2.6.2

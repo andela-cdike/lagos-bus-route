@@ -20,5 +20,7 @@ coverage.xml
 # dotenv
 .env.*
 
-# private files
+# private development files
 remember.md
+snippets/
+requirements_dev.txt

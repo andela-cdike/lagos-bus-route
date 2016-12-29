@@ -19,4 +19,4 @@ class RouteFactory(factory.django.DjangoModelFactory):
     busstop = factory.SubFactory(BusStopFactory)
     busstop_type = 'TR'
     route_id = 0
-    node_id = 0
+    node_position = 0
