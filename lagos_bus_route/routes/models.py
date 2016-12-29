@@ -11,10 +11,12 @@ class Route(Base):
     Each route is identified by a route_id.
 
     Properties:
-    busstop -- a relationship to the busstop record on the busstop model
-    busstop_type -- distinguishes between terminal points and transit points
-                    a mulitiple choice field
-    route_id -- identifies and distinguishes different routes in the table
+        busstop -- a relationship to the busstop record on the busstop model
+        busstop_type -- distinguishes between terminal points
+                        and transit points a mulitiple choice field
+        route_id -- identifies and distinguishes different routes
+                    in the table
+        node_position -- identifies the position of the node in the route
     '''
     TERMINAL = 'TE'
     TRANSIT = 'TR'
@@ -29,6 +31,7 @@ class Route(Base):
         default='TE'
     )
     route_id = models.IntegerField()
+    node_position = models.IntegerField()
 
     def __str__(self):
         return '{0}, type-{1}, route {2}'.format(
