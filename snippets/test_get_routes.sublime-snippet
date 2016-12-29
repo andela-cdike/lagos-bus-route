@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+def test_get_route_starts_${1:terminal}_ends_${2:node}_level_${3:two}(self):
+    rtengine = RouteEngine(${4:'lawanson'}, ${5:'idi oro'})
+    routes = rtengine.get_routes()
+    exp_output = [${6:'lawanson'}, ${7:'ojuelegba'}, ${8:'idi oro'}]
+    self.assertEqual(exp_output, routes)
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>test_get_route</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <description>Test RouteEngine's get_routes method placeholder</description>
+</snippet>
