@@ -100,7 +100,8 @@ class RouteEngine(object):
         '''Returns the nodes in a route as a queryset'''
         route_id = self.route_id_queue.get()
         self.route_ids_seen[route_id] = True
-        return Route.objects.filter(route_id=route_id).order_by('id')
+        return Route.objects.filter(route_id=route_id).order_by(
+            'node_position')
 
     def order_route(self, route, busstop_name):
         '''Order route based on supplied busstop argument
@@ -125,7 +126,7 @@ class RouteEngine(object):
         if node.id == route[0].id:
             return list(route)
         elif node.id == route[len(route) - 1].id:
-            return list(route.order_by('-id'))
+            return list(route.order_by('-node_position'))
         return self.split_route_into_two(route, node)
 
     def split_route_into_two(self, route, busstop_node):
@@ -140,7 +141,8 @@ class RouteEngine(object):
         Returns:
             route -- a list representation of the route
         '''
-        target_index = route.filter(busstop__id__lt=busstop_node.id).count()
+        target_index = route.filter(
+            busstop__id__lt=busstop_node.node_position).count()
         first_route = self.populate_new_route(route, 0, target_index)
         first_route.append(busstop_node)
         first_route.reverse()
