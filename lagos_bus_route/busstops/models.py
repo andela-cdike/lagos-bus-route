@@ -1,5 +1,6 @@
 from __future__ import unicode_literals
 
+from django.core.exceptions import ObjectDoesNotExist
 from django.db import models
 
 
@@ -22,3 +23,11 @@ class BusStop(Base):
 
     def __str__(self):
         return self.name
+
+    @staticmethod
+    def get_queryset(busstop, area):
+        try:
+            return BusStop.objects.filter(
+                name__contains=busstop, area__contains=area)
+        except ObjectDoesNotExist:
+            return None
