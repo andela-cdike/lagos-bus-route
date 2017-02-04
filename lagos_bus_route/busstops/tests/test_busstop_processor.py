@@ -1,5 +1,8 @@
+import mock
+
 from bus_fixtures import BusStopDataSetup
 from busstops.busstop_processor import BusstopProcessor
+from busstops.services.google_map_api_interface import GoogleMapApiInterface
 from factories.factories import BusStopFactory
 
 
@@ -42,11 +45,18 @@ class BusstopProcessorTestSuite(BusStopDataSetup):
         }
         self.assertEqual(exp_output, result)
 
-    def test_get_busstop_when_location_isnt_specific(self):
+    @mock.patch.object(
+        GoogleMapApiInterface,
+        'get_nearby_busstops',
+        autospec=True,
+        return_value=['lawanson', 'ogunlana']
+    )
+    def test_get_busstop_when_location_isnt_specific(self, mock_gmap_int_obj):
         processor = BusstopProcessor('*st mulumba catholic church, surulere')
         result = processor.process()
         exp_output = {
             'match': self.lawanson,
             'others': [self.ogunlana]
         }
+        self.assertTrue(mock_gmap_int_obj.called)
         self.assertEqual(exp_output, result)

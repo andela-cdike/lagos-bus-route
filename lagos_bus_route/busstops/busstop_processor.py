@@ -11,6 +11,7 @@ the database as you type.
 from collections import namedtuple
 
 from busstops.models import BusStop
+from busstops.services.google_map_api_interface import GoogleMapApiInterface
 
 
 class BusstopProcessor(object):
@@ -117,7 +118,11 @@ class BusstopProcessor(object):
             a list of busstops arranged in order of proximity to
             supplied location e.g. ['lawanson', 'ogunlana']
         '''
-        return ['lawanson', 'ogunlana', 'otofina', 'bundafon']
+        gmap_api_interface = GoogleMapApiInterface()
+        address = '{0} {1}'.format(
+            location_record.busstop_or_address, location_record.area)
+        busstops = gmap_api_interface.get_nearby_busstops(address)
+        return busstops
 
     def get_busstop(self, location_records):
         '''Returns a list of BusStop objects'''
