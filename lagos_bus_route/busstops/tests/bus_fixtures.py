@@ -23,9 +23,9 @@ class BusStopDataSetup(TestCase):
         self.municipal = BusStopFactory(
             name='municipal',
             area='surulere',
-            latitude=6.511819999999999,
-            longitude=3.3588687,
-            place_id='ChIJNefNeTiMOxARIpN7Ab6DTOM'
+            latitude=6.5120758,
+            longitude=3.3573854,
+            place_id='ChIJTQxdRDiMOxARY1wcJy4IB7c'
         )
         self.ogunlana = BusStopFactory(
             name='ogunlana',

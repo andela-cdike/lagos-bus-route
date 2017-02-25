@@ -10,6 +10,9 @@ class BusStopFactory(factory.django.DjangoModelFactory):
 
     name = factory.Sequence(lambda n: 'busstop_{0}'.format(n))
     area = factory.Sequence(lambda n: 'area_{0}'.format(n))
+    latitude = factory.Sequence(lambda n: '6.9092390{0}'.format(n))
+    longitude = factory.Sequence(lambda n: '3.9092390{0}'.format(n))
+    place_id = factory.Sequence(lambda n: 'ChIJTQxdRDiMOxARY4IB{0}c'.format(n))
 
 
 class RouteFactory(factory.django.DjangoModelFactory):
