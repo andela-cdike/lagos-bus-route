@@ -1,6 +1,8 @@
+import mock
 import unittest
 
-from busstops.scripts import get_busstop_info_from_gapi
+from busstops.models import BusStop
+from busstops.scripts import get_busstop_info_from_gapi, write_csv_into_db
 
 
 class MergeDictsTestCase(unittest.TestCase):
@@ -58,3 +60,26 @@ class GetPlaceInfoFromGapiTestCase(unittest.TestCase):
         values = GetPlaceInfoFromGapiTestCase._result.values()
         for val in values:
             self.assertIsNotNone(val)
+
+
+class WriteCsvToDbTestCase(unittest.TestCase):
+    return_value = [
+        {
+            'area': 'badagry',
+            'latitude': '6.428461299999999',
+            'longitude': '2.8925519',
+            'name': 'badagry garage',
+            'place_id': 'ChIJt79A1ltiOxARxiWYkSmtiaM',
+            's/n': '259'
+        }
+    ]
+
+    @mock.patch(
+        'busstops.scripts.write_csv_into_db.read_csv',
+        return_value=return_value
+    )
+    def test_write_csv_to_db(self, mock_csv_file):
+        write_csv_into_db.write_csv_to_db()
+        busstop = BusStop.objects.filter(
+            name=self.return_value[0]['name'])
+        self.assertEqual(busstop.count(), 1)

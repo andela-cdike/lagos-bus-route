@@ -13,21 +13,21 @@ API_KEYS = [
     'AIzaSyDuxc_p7LNcAK7nkvo4eGC3zAqX3yidWS4',
     'AIzaSyB4hNuym8EKw345DFvbKzQSeH9i7d3DJSw',
 ]
+FIELDNAMES = ('s/n', 'name', 'area', 'latitude', 'longitude', 'place_id')
 
 
 def populate_csv_file_with_busstop_info():
     '''
     Fill a csv file with important information about busstops
     '''
-    fieldnames = ('s/n', 'name', 'area', 'latitude', 'longitude', 'place_id')
-    csv_file = read_csv('busstops.csv', fieldnames)
+    csv_file = read_csv('busstops.csv')
     for index, row in enumerate(csv_file, start=1):
         api_key = next(get_api_key())
         place_info = get_place_info_from_gapi(api_key, row)
         if not place_info:
             continue
         busstop_info = merge_dicts(row, place_info)
-        write_to_file('new_busstops.csv', fieldnames, busstop_info, index)
+        write_to_file('new_busstops.csv', busstop_info, index)
 
 
 def merge_dicts(*dict_args):
@@ -50,10 +50,10 @@ def get_api_key():
         yield random.choice(API_KEYS)
 
 
-def read_csv(filename, fieldnames):
+def read_csv(filename):
     result = []
     with open(filename, 'rb') as csvfile:
-        reader = csv.DictReader(csvfile, fieldnames=fieldnames)
+        reader = csv.DictReader(csvfile, fieldnames=FIELDNAMES)
         for row in reader:
             result.append(row)
     return result
@@ -98,9 +98,9 @@ def report_error(busstop_info):
         })
 
 
-def write_to_file(filename, fieldnames, busstop_info, index):
+def write_to_file(filename, busstop_info, index):
     with open(filename, 'awb') as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer = csv.DictWriter(csvfile, fieldnames=FIELDNAMES)
         if index == 0:
             writer.writeheader()
         writer.writerow({

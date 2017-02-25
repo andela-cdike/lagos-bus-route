@@ -41,15 +41,15 @@ class RouteEngineTestSuite(RouteFactoryDataSetup):
         self.assertEqual(exp_output, routes)
 
     def test_get_route_starts_terminal_ends_node_level_two(self):
-        rtengine = RouteEngine('lawanson', 'idi oro')
+        rtengine = RouteEngine('lawanson', 'idi-oro')
         routes = rtengine.get_routes()
-        exp_output = [['lawanson', 'ojuelegba', 'idi oro']]
+        exp_output = [['lawanson', 'ojuelegba', 'idi-oro']]
         self.assertEqual(exp_output, routes)
 
     def test_get_route_starts_node_ends_node_level_two(self):
-        rtengine = RouteEngine('ogunlana', 'idi oro')
+        rtengine = RouteEngine('ogunlana', 'idi-oro')
         routes = rtengine.get_routes()
-        exp_output = [['ogunlana', 'ojuelegba', 'idi oro']]
+        exp_output = [['ogunlana', 'ojuelegba', 'idi-oro']]
         self.assertEqual(exp_output, routes)
 
     def test_get_route_starts_node_ends_terminal_level_two(self):

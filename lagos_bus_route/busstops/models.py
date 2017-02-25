@@ -21,6 +21,9 @@ class BusStop(Base):
 
     name = models.CharField(max_length=100)
     area = models.CharField(max_length=100)
+    latitude = models.DecimalField(max_digits=22, decimal_places=20, default=0.000000)
+    longitude = models.DecimalField(max_digits=22, decimal_places=20, default=0.00000)
+    place_id = models.CharField(max_length=27)
 
     def __str__(self):
         return self.name
