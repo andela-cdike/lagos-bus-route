@@ -34,8 +34,8 @@ class BusStop(Base):
     @staticmethod
     def get_queryset(busstop_name, busstop_area):
         queryset = BusStop.objects.annotate(similarity=TrigramSimilarity(
-            'name', busstop_name),).filter(similarity__gt=0.3)
+            'name', busstop_name),).filter(similarity__gt=0.5)
         if busstop_area:
             queryset = queryset.annotate(similarity=TrigramSimilarity(
-                'area', busstop_area),).filter(similarity__gt=0.3)
+                'area', busstop_area),).filter(similarity__gt=0.5)
         return queryset
