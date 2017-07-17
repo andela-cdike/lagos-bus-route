@@ -79,7 +79,7 @@ class WriteCsvToDbTestCase(unittest.TestCase):
         return_value=return_value
     )
     def test_write_csv_to_db(self, mock_csv_file):
-        write_csv_into_db.write_csv_to_db()
+        write_csv_into_db.write_csv_to_db('dummy_filename')
         busstop = BusStop.objects.filter(
             name=self.return_value[0]['name'])
         self.assertEqual(busstop.count(), 1)
