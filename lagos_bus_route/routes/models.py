@@ -24,6 +24,7 @@ class Route(Base):
         (TERMINAL, 'Terminal'),
         (TRANSIT, 'Transit'),
     )
+
     busstop = models.ForeignKey('busstops.BusStop')
     busstop_type = models.CharField(
         max_length=2,
