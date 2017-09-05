@@ -1,3 +1,5 @@
+from collections import namedtuple
+
 import googlemaps
 
 
@@ -6,20 +8,24 @@ class GoogleMapApiInterface(object):
     Calls to the google map API should be made through this interface
     """
 
+    BusStopPayload = namedtuple('BusStopPayload', 'name place_id')
+
+    RELEVANT_INFORMATION = ('name', 'place_id')
+
     def __init__(self):
         self.gmaps = googlemaps.Client(
             key='AIzaSyCt7JdcEzFU14DcDEEY6edTZXoz0qbA8Ws')
 
     def get_nearby_busstops(self, address=None, radius=800):
-        '''
+        """
         Args:
             address (string) - address to locate busstops around
             radius (int) -- distance in meters in which to bias results
         Returns:
-            a list of names of busstops close to the supplied address
+            a list of busstop payload close to the supplied address
             (distance determined by the radius argument)
-        '''
-        busstop_names = []
+        """
+        payload = []
         nearby_places_result = {}
         location_coordinates = self.get_coordinates(address)
         if location_coordinates:
@@ -32,26 +38,27 @@ class GoogleMapApiInterface(object):
                 type='bus_station',
             )
         if nearby_places_result and nearby_places_result['status'] == 'OK':
-            busstop_names = self.extract_busstop_names_from_api_response(
+            payload = self.extract_relevant_information_from_api_response(
                 nearby_places_result['results'])
-        return busstop_names
+        return payload
 
-    def extract_busstop_names_from_api_response(self, busstops):
-        '''
+    def extract_relevant_information_from_api_response(self, busstops):
+        """
         Extract the names of bus stops from a list containing bus stops and
         information about them.
         Args:
             busstops -- a list of busstops with associated information
         Returns:
-            a list containing bus stop names
-        '''
-        busstop_names = []
-        for busstop in busstops:
-            busstop_names.append(busstop['name'])
-        return busstop_names
+            a list containing bus stops
+        """
+        payload = []
+        for bs in busstops:
+            payload.append(self.BusStopPayload(
+                *(bs[key] for key in self.RELEVANT_INFORMATION)))
+        return payload
 
     def get_coordinates(self, address):
-        '''Return a dictionary of the longitude and latitude of
+        """Return a dictionary of the longitude and latitude of
         the supplied address
         Args:
             address -- a sring representation of the address
@@ -62,7 +69,7 @@ class GoogleMapApiInterface(object):
             a dictonary rep of the coordinates
             e.g. {u'lat': 6.5039579, u'lng': 3.3514875}
             or an empty dictionary if google returned nothing
-        '''
+        """
         geocode_result = self.gmaps.geocode(address)
         if geocode_result:
             return geocode_result[0]['geometry']['location']

@@ -32,7 +32,7 @@ class BusstopProcessor(object):
 
     # a location record consists of the busstop and an area
     locationRecord = namedtuple(
-        'locationRecord', ['busstop_or_address', 'area'])
+        'locationRecord', ['busstop_or_address', 'area', 'place_id'])
 
     def __init__(self, raw_location):
         self.raw_location = raw_location.lower().replace(', ', ',')
@@ -84,7 +84,7 @@ class BusstopProcessor(object):
         else:
             location = self.raw_location[1:].split(',')
         self.validate_raw_location(location)
-        return self.locationRecord(*location)
+        return self.locationRecord(*location, place_id=None)
 
     def validate_raw_location(self, location):
         '''returns an empty string for the area parameter in the case
@@ -107,7 +107,8 @@ class BusstopProcessor(object):
         busstops = self.get_busstops_from_google_map_api(location_record)
         for busstop in busstops:
             location_records.append(
-                self.locationRecord(busstop, location_record.area)
+                self.locationRecord(
+                    busstop.name, location_record.area, busstop.place_id)
             )
         return location_records
 
@@ -130,7 +131,7 @@ class BusstopProcessor(object):
         # between address and any of the busstops
         mrc_with_address = functools.partial(
             jellyfish.match_rating_comparison, unicode(address))
-        if len(busstops) > 1 and any(mrc_with_address(busstop) for busstop in busstops):
+        if len(busstops) > 1 and any(mrc_with_address(busstop.name) for busstop in busstops):
             busstops = self.sort_gmap_api_result_by_jaro_distance(
                 location_record, busstops)
             logger.info(dict(
@@ -147,12 +148,12 @@ class BusstopProcessor(object):
 
         :param location_record: a locationRecord object holding the information
                                 of the location searched
-        :param busstops: a list of busstop names gotten from google map API
+        :param busstops: a list of BusStopPayload items, gotten from google map API interface
         """
         jd_with_busstop = functools.partial(
             jellyfish.jaro_distance, location_record.busstop_or_address)
         busstops_by_jaro_distance = [
-            (busstop, jd_with_busstop(busstop)) for busstop in busstops]
+            (busstop, jd_with_busstop(busstop.name)) for busstop in busstops]
 
         return [
             busstop[0] for busstop in sorted(
@@ -166,7 +167,11 @@ class BusstopProcessor(object):
         '''Returns a list of BusStop objects'''
         busstops = []
         for record in location_records:
-            res = BusStop.get_queryset(record.busstop_or_address, record.area)
+            if record.place_id:
+                res = BusStop.get_by_place_id(record.place_id)
+            else:
+                res = BusStop.get_queryset(
+                    record.busstop_or_address, record.area)
             for busstop in res:
                 busstops.append(busstop)
         return busstops

@@ -6694,5 +6694,17 @@
         "busstop_type": "TE",
         "node_position": 10,
         "route_id": 78
+    },
+    {
+        "busstop_id": "858",
+        "busstop_type": "TE",
+        "node_position": 1,
+        "route_id": 79
+    },
+    {
+        "busstop_id": "887",
+        "busstop_type": "TE",
+        "node_position": 2,
+        "route_id": 79
     }
 ]

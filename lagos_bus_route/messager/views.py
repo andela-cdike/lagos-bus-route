@@ -1,3 +1,7 @@
+from __future__ import unicode_literals
+
+import functools
+import jellyfish
 import json
 import logging
 import os
@@ -20,6 +24,12 @@ logger = logging.getLogger(__name__)
 
 class FormatException(Exception):
     """Raise this exception for wrongly formatted messages"""
+
+
+class BusStopNotFoundException(Exception):
+    """Raise this exception when a busstop is not found
+    for a location supplied
+    """
 
 
 @method_decorator(csrf_exempt, 'dispatch')
@@ -57,8 +67,9 @@ class Webhook(View):
                             handle_message(event)
                         except FormatException:
                             pass
+                        except BusStopNotFoundException:
+                            pass
                         except Exception as exc:
-                            print exc
                             logger.error(dict(msg='An unhandled exception in handle_message',
                                               event=event,
                                               error=exc,
@@ -86,6 +97,14 @@ def get_equivalent_busstop(location):
     """
     bp = BusstopProcessor(location)
     busstops = bp.process()
+    if not busstops.get('match'):
+        msg = 'No busstop was found for "{}"'.format(location.strip())
+        logger.warning(dict(
+            msg=msg,
+            location=location,
+            type='get_equivalent_busstop'
+        ))
+        raise BusStopNotFoundException(msg)
     return busstops['match']
 
 
@@ -243,6 +262,37 @@ def find_route(source, destination):
     pass
 
 
+def is_greeting_text(message):
+    """Returns True if message is a greeting, else False"""
+    greeting_text = ('hello', 'hi', 'how are you', 'whats up', 'how far')
+    jd_with_message = functools.partial(
+        jellyfish.jaro_distance, message)
+    return any(jd_with_message(text) > .7 for text in greeting_text)
+
+
+def get_greeting():
+    """Returns a random greeting out of a collection of greetings"""
+    return 'Whats up?\n Type in your query to get started.'
+
+
+def send_instructions(recipient_id):
+    """Send usage instructions or command format"""
+    template = (
+        "Send your queries in these formats: \n"
+        "1. If you are sure about the bus stop: \n"
+        "<source bus stop>, <lga>; <destination bus stop>, <lga> \n"
+        "e.g. oshodi, oshodi-isolo; cms, lagos island\n"
+        "2. If you aren't sure about the bus stop or the lga "
+        "(which would be most of the time) : \n"
+        "-- *<source location>, <optional area>; *<destination location>, <optional area> \n"
+        "-- <source bus stop> <lga>; *<destination location>, <optional area> \n"
+        "-- e.g. *ketu; *sabo, yaba \n"
+        "-- e.g. *ogunlana drive, surulere; cms, lagos island \n"
+        "-- e.g. *mobolaji bank anthony; *eko hotel, victoria island \n"
+    )
+    send_text_message(recipient_id, template)
+
+
 def handle_message(event):
     """
     Interpretes message and sends routes to user if found
@@ -263,14 +313,23 @@ def handle_message(event):
 
     message_text = message.get('text')
     message_attachments = message.get('attachments')
+    send_typing_action(sender_id)
 
-    if message_text and is_valid(message_text):
-        send_typing_action(sender_id)
+    if is_greeting_text(message_text):
+        send_text_message(sender_id, get_greeting())
+        send_instructions(sender_id)
+    elif 'help' in message_text.lower():
+        send_instructions(sender_id)
+    elif message_text:
         # run as task: celery and redis
         source, destination = deconstruct_message(sender_id, message_text)
-        source = get_equivalent_busstop(source)
-        destination = get_equivalent_busstop(destination)
-        routes = find_routes(source, destination)
-        send_routes(sender_id, format_routes(routes))
+        try:
+            source = get_equivalent_busstop(source)
+            destination = get_equivalent_busstop(destination)
+        except BusStopNotFoundException as exc:
+            send_text_message(sender_id, exc.message)
+        else:
+            routes = find_routes(source, destination)
+            send_routes(sender_id, format_routes(routes))
     elif message_attachments:
         send_text_message(sender_id, "Sorry, we don't support attachments.")

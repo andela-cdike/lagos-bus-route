@@ -15,7 +15,8 @@ class RouteEngine(object):
     Args:
 
     '''
-    BusstopNode = namedtuple('BusstopNode', ['route_id', 'name', 'route'])
+    BusstopNode = namedtuple(
+        'BusstopNode', ['route_id', 'name', 'route', 'place_id'])
 
     def __init__(self, start_busstop, end_busstop):
         self.start_busstop = start_busstop
@@ -35,7 +36,8 @@ class RouteEngine(object):
         start_busstop_node = self.BusstopNode(
             route_id=None,
             name=self.start_busstop,
-            route=[self.start_busstop]
+            place_id=self.start_busstop.place_id,
+            route=[self.start_busstop.name]
         )
         self.busstops_queue.put(start_busstop_node)
         found_routes = self._search_for_routes(start_busstop_node)
@@ -65,9 +67,9 @@ class RouteEngine(object):
         '''Returns Boolean value indication if supplied busstop_node
         is the destination or not
         '''
-        if busstop_node.name == self.end_busstop:
-            return True
-        return False
+        if busstop_node.place_id and self.end_busstop.place_id:
+            return busstop_node.place_id == self.end_busstop.place_id
+        return (busstop_node.name, busstop_node.area) == (self.end_busstop.name, self.end_busstop.area)
 
     def _add_new_route_ids_to_queue(self, busstop_node):
         '''
@@ -99,6 +101,7 @@ class RouteEngine(object):
                     queue_node = self.BusstopNode(
                         route_id=node.route_id,
                         name=node.busstop.name,
+                        place_id=node.busstop.place_id,
                         route=accumulated_route
                     )
                     self.busstops_queue.put(queue_node)
@@ -132,13 +135,14 @@ class RouteEngine(object):
         '''
         try:
             node = route.get(busstop__name=busstop_name)
-        except MultipleObjectsReturned:
+        except MultipleObjectsReturned as exc:
             logger.error(dict(
-                msg='A route had a more than one busstop with the same name',
+                msg='A route had more than one busstop with the same name',
                 route=route,
                 busstop_name=busstop_name,
                 type='_order_route'
             ))
+            raise exc
 
         if node.id == route[0].id:
             return list(route)
