@@ -1,20 +1,34 @@
 '''
 A simple process is one that supplies the busstop
 A complex/not so simple process is one that doesn't provide a specific
-busstop and thus relies on the processor to get the best busstop based on
 the supplied location. It should have an asterisk in front.
+busstop and thus relies on the processor to get the best busstop based on
 
-Note: this is mostly for the SMS app as the web app would suggest busstops in
-the database as you type.
+Note: this is mostly for the SMS/messenger (basically any text based) app as
+the web app would suggest busstops in the database as you type.
 '''
 
+import functools
+import logging
+import operator
 from collections import namedtuple
+
+import jellyfish
 
 from busstops.models import BusStop
 from busstops.services.google_map_api_interface import GoogleMapApiInterface
 
 
+logger = logging.getLogger(__name__)
+
+
 class BusstopProcessor(object):
+    """Initialize with a string of the busstop and aread
+    samples:
+    -- lawanson, surulere
+    -- *ajao, surulere
+    -- *ajao road
+    """
 
     # a location record consists of the busstop and an area
     locationRecord = namedtuple(
@@ -42,6 +56,11 @@ class BusstopProcessor(object):
         location_records = self.reduce_location_to_busstops(location_record)
         busstops = self.get_busstop(location_records)
         result = self.prepare_result(busstops)
+        logger.info(dict(
+            msg='Busstop processor result {0}'.format(
+                self.raw_location),
+            result=result, type='busstop_processor_process'
+        ))
         return result
 
     def prepare_result(self, busstops):
@@ -65,22 +84,7 @@ class BusstopProcessor(object):
         else:
             location = self.raw_location[1:].split(',')
         self.validate_raw_location(location)
-        location_record = self.transform_to_location_record(location)
-        return location_record
-
-    def transform_to_location_record(self, location):
-        '''
-        Args:
-            address - a list with:
-                busstop or address in first index position; and
-                area in the second index position
-        Returns:
-            a location_record
-        '''
-        return self.locationRecord(
-            busstop_or_address=location[0],
-            area=location[1]
-        )
+        return self.locationRecord(*location)
 
     def validate_raw_location(self, location):
         '''returns an empty string for the area parameter in the case
@@ -103,9 +107,7 @@ class BusstopProcessor(object):
         busstops = self.get_busstops_from_google_map_api(location_record)
         for busstop in busstops:
             location_records.append(
-                self.transform_to_location_record(
-                    [busstop, location_record.area]
-                )
+                self.locationRecord(busstop, location_record.area)
             )
         return location_records
 
@@ -115,14 +117,50 @@ class BusstopProcessor(object):
         Args:
             location_record
         Return:
-            a list of busstops arranged in order of proximity to
-            supplied location e.g. ['lawanson', 'ogunlana']
+            a list of busstops
         '''
         gmap_api_interface = GoogleMapApiInterface()
         address = '{0} {1}'.format(
-            location_record.busstop_or_address, location_record.area)
+            location_record.busstop_or_address,
+            location_record.area if location_record.area else 'lagos'
+        )
         busstops = gmap_api_interface.get_nearby_busstops(address)
+
+        # only sort by jaro distance when there is a jellyfish rating comparison match
+        # between address and any of the busstops
+        mrc_with_address = functools.partial(
+            jellyfish.match_rating_comparison, unicode(address))
+        if len(busstops) > 1 and any(mrc_with_address(busstop) for busstop in busstops):
+            busstops = self.sort_gmap_api_result_by_jaro_distance(
+                location_record, busstops)
+            logger.info(dict(
+                msg='Sorted the following bus stops by jaro distance',
+                busstops=busstops
+            ))
         return busstops
+
+    @staticmethod
+    def sort_gmap_api_result_by_jaro_distance(location_record, busstops):
+        """
+        Arrange busstops by jaro_distance to the original busstop
+        passed in so the most similar becomes the first match
+
+        :param location_record: a locationRecord object holding the information
+                                of the location searched
+        :param busstops: a list of busstop names gotten from google map API
+        """
+        jd_with_busstop = functools.partial(
+            jellyfish.jaro_distance, location_record.busstop_or_address)
+        busstops_by_jaro_distance = [
+            (busstop, jd_with_busstop(busstop)) for busstop in busstops]
+
+        return [
+            busstop[0] for busstop in sorted(
+                busstops_by_jaro_distance,
+                key=operator.itemgetter(1),
+                reverse=True
+            )
+        ]
 
     def get_busstop(self, location_records):
         '''Returns a list of BusStop objects'''

@@ -175,8 +175,6 @@ alausa,TR,alausa,737
 kara,TR,kara,906
 ojodu/berger,TE,ojodu/berger,738
 allen,TE,allen,716
-obalende,TE,obalende,805
-allen,TE,allen,716
 testing ground,TR,testing ground,904
 cosmic,TR,cosmic,905
 elephant,TR,elephant,736
@@ -469,7 +467,7 @@ maryland,TR,maryland,744
 ojota,TR,ojota,785
 ketu,TR,ketu,786
 iyana school,TR,iyana school,780
-mile 12 underbridge,TR,mile 12 underbridge,913
+mile 12 underbridge,TE,mile 12 underbridge,913
 cms,TE,cms,803
 barracks,TR,barracks,804
 bonny camp,TR,bonny camp,914
@@ -786,8 +784,6 @@ post service,TR,post service,1021
 iyanaoba,TE,iyanaoba,875
 iyanaoba,TE,iyanaoba,875
 post service,TR,post service,1021
-iyanaoba,TE,iyanaoba,875
-post service,TR,post service,1021
 agboroko,TR,agboroko,1020
 first gate,TR,first gate,1019
 ipaye,TR,ipaye,1018
@@ -1063,7 +1059,7 @@ leventis,TR,leventis,802
 cms,TR,cms,803
 obalende,TE,obalende,805
 ikotun,TE,ikotun,765
-synagogue,TE,synagogue,764
+synagogue,TR,synagogue,764
 bolorunpelu,TR,bolorunpelu,1036
 ile-iwe,TR,ile-iwe,763
 hostel,TR,hostel,1048

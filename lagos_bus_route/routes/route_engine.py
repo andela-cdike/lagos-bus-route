@@ -1,7 +1,13 @@
 from collections import namedtuple
+import logging
 import Queue
 
+from django.core.exceptions import MultipleObjectsReturned
+
 from routes.models import Route
+
+
+logger = logging.getLogger(__name__)
 
 
 class RouteEngine(object):
@@ -14,10 +20,12 @@ class RouteEngine(object):
     def __init__(self, start_busstop, end_busstop):
         self.start_busstop = start_busstop
         self.end_busstop = end_busstop
-        self.route_ids_seen = {}
+        self.route_ids_seen = set()
         self.route_id_queue = Queue.Queue()
-        self.busstops_seen = {}
+        self.busstops_seen = set()
         self.busstops_queue = Queue.Queue()
+        print('start: ', self.start_busstop)
+        print('END: ', self.end_busstop)
 
     def get_routes(self):
         '''Entry point for the searching process
@@ -46,7 +54,7 @@ class RouteEngine(object):
         found_routes = []
         while not self.busstops_queue.empty():
             current_busstop_node = self.busstops_queue.get()
-            self.busstops_seen[current_busstop_node.name] = True
+            self.busstops_seen.add(current_busstop_node.name)
             if self._is_destination(current_busstop_node):
                 found_routes.append(current_busstop_node.route)
             self._add_new_route_ids_to_queue(current_busstop_node)
@@ -99,7 +107,7 @@ class RouteEngine(object):
     def _get_route_nodes(self):
         '''Returns the nodes in a route as a queryset'''
         route_id = self.route_id_queue.get()
-        self.route_ids_seen[route_id] = True
+        self.route_ids_seen.add(route_id)
         return Route.objects.filter(route_id=route_id).order_by(
             'node_position')
 
@@ -122,7 +130,16 @@ class RouteEngine(object):
         Returns:
             route -- a list of the route
         '''
-        node = route.get(busstop__name=busstop_name)
+        try:
+            node = route.get(busstop__name=busstop_name)
+        except MultipleObjectsReturned:
+            logger.error(dict(
+                msg='A route had a more than one busstop with the same name',
+                route=route,
+                busstop_name=busstop_name,
+                type='_order_route'
+            ))
+
         if node.id == route[0].id:
             return list(route)
         elif node.id == route[len(route) - 1].id:

@@ -1,12 +1,14 @@
 import json
+import logging
 import os
 import sys
 
 from report_node_to_busstop_mismatch import read_csv_file
 
 
-DEFAULT_OUTFILE_NAME = 'nodes.json'
-FIELDNAMES = ('busstop', 'busstop_type', 'route_id', 'node_position')
+logger = logging.getLogger(__name__)
+
+DEFAULT_OUTFILE_NAME = 'routes.json'
 
 
 def convert_csv_to_json(csvfile, outfile):
@@ -21,8 +23,9 @@ def convert_csv_to_json(csvfile, outfile):
     node_position = 1
     for row in route_to_busstop_table:
         routes.append({
-            'busstop': row['busstop_id'],
-            'node_type': row['node_type'],
+            # key `busstop` is to match with name of field in db
+            'busstop_id': row['busstop_id'],
+            'busstop_type': row['node_type'],
             'route_id': route_id,
             'node_position': node_position
         })
@@ -38,10 +41,11 @@ def convert_csv_to_json(csvfile, outfile):
         json.dump(
             routes, file, sort_keys=True, indent=4, separators=(',', ': ')
         )
-        print('File successfully saved')
+        logger.info(dict(msg='File successfully saved'))
 
 
 def main():
+    """Entry point for module/script"""
     if len(sys.argv) < 2:
         sys.exit('You forgot to pass a file name')
 

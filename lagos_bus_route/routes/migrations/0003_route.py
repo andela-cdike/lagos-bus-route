@@ -15,8 +15,12 @@ def fetch_nodes_in_batches(no_per_batch, start=0):
     """
 
 
-def forwards(apps, schema_editor):
-    """populate the database with routes from route_node_to_busstop.csv"""
+def forwards_func(apps, schema_editor):
+    """populate the database with routes from route_node_to_busstop.csv
+    You may think of versioning routes.json so that if it becomes so large
+    such that having all its contents in memory is a problem, that does not
+    adversely affect this function
+    """
     Route = apps.get_model('routes', 'Route')
     project_dir = os.path.dirname(settings.BASE_DIR)
     routes_json_filename = '{project_dir}/routes/fixtures/routes.json'.format(
@@ -25,8 +29,13 @@ def forwards(apps, schema_editor):
     with open(routes_json_filename) as json_data:
         routes = json.load(json_data)
 
-    if Route.objects.filter(busstop_id=routes[0]['busstop_id']).exists():
+    BusStop = apps.get_model('busstops', 'BusStop')
+    if BusStop.objects.filter(id=routes[0]['busstop_id']).exists():
         Route.objects.bulk_create((Route(**node) for node in routes))
+
+
+def reverse_func(apps, schema_editor):
+    pass
 
 
 class Migration(migrations.Migration):
@@ -36,5 +45,5 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.RunPython(forwards),
+        migrations.RunPython(forwards_func, reverse_func),
     ]
