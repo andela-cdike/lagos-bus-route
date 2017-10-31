@@ -264,10 +264,11 @@ def find_route(source, destination):
 
 def is_greeting_text(message):
     """Returns True if message is a greeting, else False"""
-    greeting_text = ('hello', 'hi', 'how are you', 'whats up', 'how far')
+    greeting_text = ('hello', 'hi', 'how are you',
+                     'whats up', 'how far', 'hey')
     jd_with_message = functools.partial(
         jellyfish.jaro_distance, message)
-    return any(jd_with_message(text) > .7 for text in greeting_text)
+    return any(jd_with_message(text) > .8 for text in greeting_text)
 
 
 def get_greeting():
@@ -283,7 +284,7 @@ def send_instructions(recipient_id):
         "<source bus stop>, <lga>; <destination bus stop>, <lga> \n"
         "e.g. oshodi, oshodi-isolo; cms, lagos island\n"
         "2. If you aren't sure about the bus stop or the lga "
-        "(which would be most of the time) : \n"
+        "(which would be most of the time \U0001f601) : \n"
         "-- *<source location>, <optional area>; *<destination location>, <optional area> \n"
         "-- <source bus stop> <lga>; *<destination location>, <optional area> \n"
         "-- e.g. *ketu; *sabo, yaba \n"

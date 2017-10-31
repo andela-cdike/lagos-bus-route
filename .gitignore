@@ -28,3 +28,6 @@ requirements_dev.txt
 
 # IDE related
 .vscode/
+
+# Personal stuff
+test_script.py

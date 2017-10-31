@@ -2,8 +2,13 @@ import mock
 
 from bus_fixtures import BusStopDataSetup
 from busstops.busstop_processor import BusstopProcessor
+from busstops.models import BusStop
 from busstops.services.google_map_api_interface import GoogleMapApiInterface
 from factories.factories import BusStopFactory
+
+
+def get_busstop(name):
+    return BusStop.objects.get(name=name)
 
 
 class BusstopProcessorTestSuite(BusStopDataSetup):
@@ -49,7 +54,8 @@ class BusstopProcessorTestSuite(BusStopDataSetup):
         GoogleMapApiInterface,
         'get_nearby_busstops',
         autospec=True,
-        return_value=['lawanson', 'ogunlana']
+        return_value=[GoogleMapApiInterface.BusStopPayload(
+            obj.name, obj.place_id) for obj in [get_busstop('lawanson'), get_busstop('ogunlana')]]
     )
     def test_get_busstop_when_location_isnt_specific(self, mock_gmap_int_obj):
         processor = BusstopProcessor('*st mulumba catholic church, surulere')
