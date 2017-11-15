@@ -36,9 +36,9 @@ class BusstopProcessor(object):
 
     def __init__(self, raw_location):
         self.raw_location = raw_location.lower().replace(', ', ',')
-        self.check_type_of_process()
+        self.update_process_type()
 
-    def check_type_of_process(self):
+    def update_process_type(self):
         if self.raw_location[0] == '*':
             self.is_simple_process = False
         else:
@@ -57,8 +57,7 @@ class BusstopProcessor(object):
         busstops = self.get_busstop(location_records)
         result = self.prepare_result(busstops)
         logger.info(dict(
-            msg='Busstop processor result {0}'.format(
-                self.raw_location),
+            msg='Busstop processor result {0}'.format(self.raw_location),
             result=result, type='busstop_processor_process'
         ))
         return result

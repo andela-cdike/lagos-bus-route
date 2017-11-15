@@ -91,12 +91,33 @@ class Webhook(View):
         return HttpResponse()
 
 
-def get_equivalent_busstop(location):
+def notify_about_other_busstops_if_required(
+        location, other_busstops, sender_id):
+    """
+    Notifies users of alternative busstops if any is returned from
+    google map api
+    :param location: a string, a location (src or destination) supplied by
+                     the user
+    :param other_busstops: a list of BusStops
+    :param sender_id: a string
+    """
+    if other_busstops:
+        busstops_list = zip(range(1, len(other_busstops) + 1), other_busstops)
+        busstops_list = "\n".join([
+            '{0:2d}. {1}'.format(idx, busstop) for idx, busstop in busstops_list
+        ])
+        message = "Here are other busstops we found around {0}:\n {1}".format(
+            location, busstops_list)
+        send_text_message(sender_id, message)
+
+
+def get_equivalent_busstop(location, sender_id):
     """
     Returns a busstop in the database for the location supplied
+    :param location: a string
+    :param sender_id: a string
     """
-    bp = BusstopProcessor(location)
-    busstops = bp.process()
+    busstops = BusstopProcessor(location).process()
     if not busstops.get('match'):
         msg = 'No busstop was found for "{}"'.format(location.strip())
         logger.warning(dict(
@@ -105,6 +126,8 @@ def get_equivalent_busstop(location):
             type='get_equivalent_busstop'
         ))
         raise BusStopNotFoundException(msg)
+    notify_about_other_busstops_if_required(
+        location, busstops['others'], sender_id)
     return busstops['match']
 
 
@@ -115,9 +138,7 @@ def find_routes(source, destination):
     : param source: string
     : param destination: string
     """
-    rtengine = RouteEngine(source, destination)
-    routes = rtengine.get_routes()
-    return routes
+    return RouteEngine(source, destination).get_routes()
 
 
 def format_routes(routes):
@@ -243,25 +264,6 @@ def is_valid(message_text):
     return True
 
 
-def verify_have_route_for_busstops(source, destination):
-    """
-    Confirms that there are routes for the source and destination
-    source - - string
-    destination - - string
-    """
-    pass
-
-
-# a celery task, I think
-def find_route(source, destination):
-    """
-    Calls route engine to find the route between source and destination
-    source - - string
-    destination - - string
-    """
-    pass
-
-
 def is_greeting_text(message):
     """Returns True if message is a greeting, else False"""
     greeting_text = ('hello', 'hi', 'how are you',
@@ -273,7 +275,7 @@ def is_greeting_text(message):
 
 def get_greeting():
     """Returns a random greeting out of a collection of greetings"""
-    return 'Whats up?\n Type in your query to get started.'
+    return 'Hi\n Type in your query to get started.'
 
 
 def send_instructions(recipient_id):
@@ -292,6 +294,22 @@ def send_instructions(recipient_id):
         "-- e.g. *mobolaji bank anthony; *eko hotel, victoria island \n"
     )
     send_text_message(recipient_id, template)
+
+
+def handle_request(sender_id, message_text):
+    """
+    Takes the request from the user, interpretes it and sends a message
+    to the user containing the route from the source to destination
+    """
+    source, destination = deconstruct_message(sender_id, message_text)
+    try:
+        source = get_equivalent_busstop(source, sender_id)
+        destination = get_equivalent_busstop(destination, sender_id)
+    except BusStopNotFoundException as exc:
+        send_text_message(sender_id, exc.message)
+    else:
+        routes = find_routes(source, destination)
+        send_routes(sender_id, format_routes(routes))
 
 
 def handle_message(event):
@@ -323,14 +341,25 @@ def handle_message(event):
         send_instructions(sender_id)
     elif message_text:
         # run as task: celery and redis
-        source, destination = deconstruct_message(sender_id, message_text)
-        try:
-            source = get_equivalent_busstop(source)
-            destination = get_equivalent_busstop(destination)
-        except BusStopNotFoundException as exc:
-            send_text_message(sender_id, exc.message)
-        else:
-            routes = find_routes(source, destination)
-            send_routes(sender_id, format_routes(routes))
+        handle_request(sender_id, message_text)
     elif message_attachments:
         send_text_message(sender_id, "Sorry, we don't support attachments.")
+
+
+def verify_have_route_for_busstops(source, destination):
+    """
+    Confirms that there are routes for the source and destination
+    source - - string
+    destination - - string
+    """
+    pass
+
+
+# a celery task, I think
+def find_route(source, destination):
+    """
+    Calls route engine to find the route between source and destination
+    source - - string
+    destination - - string
+    """
+    pass
