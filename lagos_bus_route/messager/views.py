@@ -20,6 +20,7 @@ from routes.route_engine import RouteEngine
 
 
 logger = logging.getLogger(__name__)
+first_name = ''
 
 
 class FormatException(Exception):
@@ -248,6 +249,25 @@ def call_send_api(message_data):
         })
 
 
+def fetch_users_first_name(sender_id):
+    """Fetch user's first_name from Facebook"""
+    url = 'https://graph.facebook.com/v2.6/{PSID}'.format(PSID=sender_id)
+    params = {
+        'fields': 'first_name',
+        'access_token': os.getenv('PAGE_ACCESS_TOKEN')
+    }
+    response = requests.get(url, params).json()
+    first_name = response['first_name']
+    return first_name
+
+
+def get_users_first_name(sender_id):
+    global first_name
+    if not first_name:
+        first_name = fetch_users_first_name(sender_id)
+    return first_name
+
+
 def is_valid(message_text):
     """There are two main formats for messages to this service
 
@@ -273,9 +293,10 @@ def is_greeting_text(message):
     return any(jd_with_message(text) > .8 for text in greeting_text)
 
 
-def get_greeting():
+def get_greeting(sender_id):
     """Returns a random greeting out of a collection of greetings"""
-    return 'Hi\n Type in your query to get started.'
+    first_name = get_users_first_name(sender_id)
+    return 'Hi {0}\nType in your query to get started.'.format(first_name)
 
 
 def send_instructions(recipient_id):
@@ -335,13 +356,14 @@ def handle_message(event):
     send_typing_action(sender_id)
 
     if is_greeting_text(message_text):
-        send_text_message(sender_id, get_greeting())
+        send_text_message(sender_id, get_greeting(sender_id))
         send_instructions(sender_id)
     elif 'help' in message_text.lower():
         send_instructions(sender_id)
     elif message_text:
         # run as task: celery and redis
-        handle_request(sender_id, message_text)
+        # handle_request(sender_id, message_text)
+        print 'hi'
     elif message_attachments:
         send_text_message(sender_id, "Sorry, we don't support attachments.")
 
