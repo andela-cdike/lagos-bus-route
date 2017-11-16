@@ -1,4 +1,5 @@
-import itertools
+"""Route Engine class"""
+
 import logging
 import Queue
 from collections import namedtuple
@@ -44,6 +45,8 @@ class RouteEngine(object):
         )
         self.busstops_queue.put(start_busstop_node)
         found_routes = self._search_for_routes(start_busstop_node)
+        if not found_routes:
+            return []
         found_routes.sort(key=itemgetter(1))
         min_cost = found_routes[0][1]
         return [route[0] for route in found_routes if route[1] < min_cost + 5]

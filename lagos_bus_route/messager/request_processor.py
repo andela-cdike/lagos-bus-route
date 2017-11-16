@@ -10,6 +10,7 @@ from django.utils.text import Truncator
 from busstops.busstop_processor import BusstopProcessor
 from busstops.exceptions import BusStopNotFoundException
 from routes.route_engine import RouteEngine
+from routes.exceptions import NoRouteFoundException
 
 from messager.exceptions import FormatException
 from messager.messengers import send_text_message
@@ -52,7 +53,8 @@ def get_equivalent_busstop(location, sender_id):
         logger.warning(dict(
             msg=msg,
             location=location,
-            type='get_equivalent_busstop'
+            type='get_equivalent_busstop',
+            sender_id=sender_id
         ))
         raise BusStopNotFoundException(msg)
     notify_about_other_busstops_if_required(
@@ -68,7 +70,17 @@ def find_routes(source, destination):
     :param destination: string
     :returns: a list of routes
     """
-    return RouteEngine(source, destination).get_routes()
+    routes = RouteEngine(source, destination).get_routes()
+    if not routes:
+        msg = "I am sorry. I don't have a route to serve your request"
+        logger.warning(dict(
+            msg=msg,
+            source=source,
+            destination=destination,
+            type='no_route_found'
+        ))
+        raise NoRouteFoundException(msg)
+    return routes
 
 
 def format_routes(routes):

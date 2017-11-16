@@ -3,6 +3,7 @@ import logging
 
 from busstops.exceptions import BusStopNotFoundException
 from lagos_bus_route.celery import app
+from routes.exceptions import NoRouteFoundException
 from messager.exceptions import FormatException
 from messager.messengers import (
     send_instructions, send_routes, send_text_message
@@ -34,12 +35,19 @@ def handle_route_calculation_request(sender_id, request):
             except BusStopNotFoundException as exc:
                 send_text_message(sender_id, exc.message)
             else:
-                routes = find_routes(source, destination)
-                send_routes(sender_id, format_routes(routes))
+                try:
+                    routes = find_routes(source, destination)
+                except NoRouteFoundException as exc:
+                    send_text_message(sender_id, exc.message)
+                else:
+                    send_routes(sender_id, format_routes(routes))
     except Exception as exc:
         logger.error(dict(
             msg='An unhandled exception occurred',
             error=exc,
-            type='unhandled_handle_route_calculation_request_exception'))
+            sender_id=sender_id,
+            request=request,
+            type='unhandled_handle_route_calculation_request_exception'
+        ))
         send_text_message(sender_id,
                           'Ooops, something went wrong. Please try again')
