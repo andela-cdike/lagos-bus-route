@@ -1,22 +1,23 @@
+"""Holds functions that interprete and handle user's requests"""
 from __future__ import unicode_literals
 
 import functools
-import jellyfish
 import logging
+import jellyfish
+
+from django.utils.text import Truncator
 
 from busstops.busstop_processor import BusstopProcessor
 from busstops.exceptions import BusStopNotFoundException
 from routes.route_engine import RouteEngine
 
 from messager.exceptions import FormatException
-from messager.message_senders import (
-    send_instructions, send_text_message, send_typing_action
-)
+from messager.messengers import send_text_message
 from messager.facebook_requests import fetch_users_first_name
 
 
 logger = logging.getLogger(__name__)
-first_name = ''
+FIRST_NAME = ''
 
 
 def notify_about_other_busstops_if_required(
@@ -63,8 +64,9 @@ def find_routes(source, destination):
     """
     Calls the route engine to return a route between source and destination
 
-    : param source: string
-    : param destination: string
+    :param source: string
+    :param destination: string
+    :returns: a list of routes
     """
     return RouteEngine(source, destination).get_routes()
 
@@ -72,7 +74,8 @@ def find_routes(source, destination):
 def format_routes(routes):
     """Return message in a user - friendly format
 
-    routes - - a list of list
+    :param routes: - - a list of list
+    :returns: a list of formatted routes
     """
     results = []
     for route in routes:
@@ -80,27 +83,33 @@ def format_routes(routes):
     return results
 
 
-def deconstruct_message(recipient_id, message):
+def deconstruct_message(message):
     """Splits the message to its component part:
     source and destination
 
-    : param recipient_id:
-    : param message: -- (string) message received from user
-    : returns: a tuple of the source and destination parts of the address
+    :param message: -- (string) message received from user
+    :returns: a tuple of the source and destination parts of the address
     """
     components = message.split(';')
     if len(components) != 2:
-        error_msg = ('Your message -> {message}\n is in an invalid format.')
-        send_text_message(recipient_id, error_msg.format(message=message))
-        raise FormatException
+        error_msg = (
+            'Your request:\n {message:^35}\n is in an invalid format.')
+        raise FormatException(error_msg.format(
+            message=Truncator(message).chars(30)))
     return components
 
 
 def get_users_first_name(sender_id):
-    global first_name
-    if not first_name:
-        first_name = fetch_users_first_name(sender_id)
-    return first_name
+    """Returns the user's first name if the global FIRST_NAME is populated
+    else, it fetches it then sets the global FIRST_NAME for future calls
+
+    :param sender_id: a string
+    :returns: a string
+    """
+    global FIRST_NAME
+    if not FIRST_NAME:
+        FIRST_NAME = fetch_users_first_name(sender_id)
+    return FIRST_NAME
 
 
 def is_greeting_text(message):

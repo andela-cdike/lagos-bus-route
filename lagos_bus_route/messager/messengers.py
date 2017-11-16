@@ -1,3 +1,4 @@
+"""Functions here prepare and send messages"""
 from __future__ import unicode_literals
 
 from messager.facebook_requests import call_send_api
@@ -15,7 +16,7 @@ def send_text_message(recipient_id, message):
 
 
 def send_typing_action(recipient_id):
-    """Sends typing action to user so he / she feels something is going on
+    """Sends typing action to user so he/she feels something is going on
     """
     message_data = {
         'recipient': {
@@ -36,10 +37,10 @@ def send_instructions(recipient_id):
         "2. If you aren't sure about the bus stop or the lga "
         "(which would be most of the time \U0001f601) : \n"
         "-- *<source location>, <optional area>; *<destination location>, <optional area> \n"
-        "-- <source bus stop> <lga>; *<destination location>, <optional area> \n"
         "-- e.g. *ketu; *sabo, yaba \n"
-        "-- e.g. *ogunlana drive, surulere; cms, lagos island \n"
         "-- e.g. *mobolaji bank anthony; *eko hotel, victoria island \n"
+        "-- <source bus stop> <lga>; *<destination location>, <optional area> \n"
+        "-- e.g. cms, lagos island; *ogunlana drive, surulere \n"
     )
     send_text_message(recipient_id, template)
 

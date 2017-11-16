@@ -1,25 +1,15 @@
 from __future__ import unicode_literals
 
-import functools
-import jellyfish
 import json
 import logging
 import os
-import time
 
 from django.http import HttpResponse, HttpResponseForbidden
-from django.shortcuts import render
 from django.utils.decorators import method_decorator
 from django.views.decorators.csrf import csrf_exempt
 from django.views.generic import View
-import requests
 
-from busstops.busstop_processor import BusstopProcessor
-from busstops.exceptions import BusStopNotFoundException
-from routes.route_engine import RouteEngine
-
-from messager.exceptions import FormatException
-from messager.message_senders import (
+from messager.messengers import (
     send_instructions, send_text_message, send_typing_action
 )
 from messager.request_processor import get_greeting, is_greeting_text
@@ -27,11 +17,12 @@ from messager.tasks import handle_route_calculation_request
 
 
 logger = logging.getLogger(__name__)
-first_name = ''
 
 
 @method_decorator(csrf_exempt, 'dispatch')
 class Webhook(View):
+    """Entry point to the messager app"""
+
     def get(self, request, *args, **kwargs):
         """when the endpoint is registered as a webhook, it must echo back
         the 'hub.challenge' value it receives in the query arguments
@@ -49,6 +40,7 @@ class Webhook(View):
         return HttpResponse("Don't know how to deal with this yet")
 
     def post(self, request, *args, **kwargs):
+        """This endpoint handles message received from messenger users"""
         data = json.loads(request.body)
 
         # make sure it is a page subscription
@@ -63,15 +55,12 @@ class Webhook(View):
                     if event['message']:
                         try:
                             handle_message(event)
-                        except FormatException:
-                            pass
-                        except BusStopNotFoundException:
-                            pass
                         except Exception as exc:
-                            logger.error(dict(msg='An unhandled exception in handle_message',
-                                              event=event,
-                                              error=exc,
-                                              type='unhandled_handle_message_exception'))
+                            logger.error(dict(
+                                msg='An unhandled exception occured in handle_message',
+                                event=event,
+                                error=exc,
+                                type='unhandled_handle_message_exception'))
                             send_text_message(
                                 event['sender']['id'],
                                 'Ooops, something went wrong. Please try again')
