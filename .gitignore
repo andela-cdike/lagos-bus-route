@@ -31,3 +31,6 @@ requirements_dev.txt
 
 # Personal stuff
 test_script.py
+
+# redis
+dump.rdb

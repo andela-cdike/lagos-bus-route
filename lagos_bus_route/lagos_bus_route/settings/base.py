@@ -117,3 +117,11 @@ STATICFILES_DIRS = [
 ]
 
 STATIC_ROOT = os.path.join(os.path.dirname('BASE_DIR'), 'staticfiles')
+
+
+# REDIS related settings
+REDIS_HOST = os.getenv('REDIS_HOST')
+REDIS_PORT = os.getenv('REDIS_PORT')
+BROKER_URL = 'redis://' + REDIS_HOST + ':' + REDIS_PORT + '/0'
+BROKER_TRANSPORT_OPTIONS = {'visibility_timeout': 3600}
+CELERY_RESULT_BACKEND = 'redis://' + REDIS_HOST + ':' + REDIS_PORT + '/0'
