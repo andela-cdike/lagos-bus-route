@@ -9,6 +9,7 @@ from django.utils.decorators import method_decorator
 from django.views.decorators.csrf import csrf_exempt
 from django.views.generic import View
 
+from messager.decorators import log_received_event
 from messager.messengers import (
     send_instructions, send_text_message, send_typing_action
 )
@@ -52,7 +53,7 @@ class Webhook(View):
 
                 # iterate over each messaging event
                 for event in entry['messaging']:
-                    if event['message']:
+                    if event.get('message'):
                         try:
                             handle_message(event)
                         except Exception as exc:
@@ -64,6 +65,8 @@ class Webhook(View):
                             send_text_message(
                                 event['sender']['id'],
                                 'Ooops, something went wrong. Please try again')
+                    if event.get('postback'):
+                        handle_postback(event)
                     else:
                         logger.warn(dict(msg='Webhook received unknown event',
                                          event=event,
@@ -78,23 +81,14 @@ class Webhook(View):
         return HttpResponse()
 
 
+@log_received_event
 def handle_message(event):
     """
     Interpretes message and sends routes to user if found
     Sends error messages if there are issues
     """
     sender_id = event['sender']['id']
-    recipient_id = event['recipient']['id']
-    time_of_message = event['timestamp']
-    message = event.get('message')
-
-    logger.info({
-        'msg': 'Received message',
-        'sender_id': sender_id,
-        'recipient_id': recipient_id,
-        'message': message,
-        'type': 'webhook_received_message'
-    })
+    message = event['message']
 
     message_text = message.get('text')
     message_attachments = message.get('attachments')
@@ -109,3 +103,15 @@ def handle_message(event):
         handle_route_calculation_request.delay(sender_id, message_text)
     elif message_attachments:
         send_text_message(sender_id, "Sorry, we don't support attachments.")
+
+
+@log_received_event
+def handle_postback(event):
+    """Handles postback messages"""
+    sender_id = event['sender']['id']
+    payload = event['postback']['payload']
+
+    if payload == 'GET_STARTED_PAYLOAD':
+        send_instructions(sender_id)
+    else:
+        send_text_message(sender_id, 'Ooops, invalid postback!!!')

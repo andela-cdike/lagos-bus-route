@@ -30,7 +30,7 @@ def send_typing_action(recipient_id):
 def send_instructions(recipient_id):
     """Send usage instructions or command format"""
     template = (
-        "Send your queries in these formats: \n"
+        "Send your queries in any of these formats: \n"
         "1. If you are sure about the bus stop: \n"
         "<source bus stop>, <lga>; <destination bus stop>, <lga> \n"
         "e.g. oshodi, oshodi-isolo; cms, lagos island\n"
