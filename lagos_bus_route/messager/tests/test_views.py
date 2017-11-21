@@ -232,3 +232,33 @@ class WebhookViewTest(TestCase):
 
         call_send_api_arg = unicode(self.mock_call_send_api.call_args[0][0])
         self.assertIn('Please try again', call_send_api_arg)
+
+    @patch('messager.decorators.logger.info')
+    def test_log_event_when_receives_text_message(self, mock_logger):
+        data = self.create_messaging_data(self.MESSAGE)
+        self.setup_call_api_for_success()
+
+        response = self.client.post(reverse('webhook'),
+                                    json.dumps(data),
+                                    content_type='application/json')
+        self.assertEqual(response.status_code, 200)
+        mock_logger.assert_called_once_with(dict(
+            msg='Received request',
+            event=data['entry'][0]['messaging'][0],
+            type='webhook_received_request'
+        ))
+
+    @patch('messager.decorators.logger.info')
+    def test_log_event_when_receives_postback_message(self, mock_logger):
+        data = self.create_messaging_data(self.POSTBACK)
+        self.setup_call_api_for_success()
+
+        response = self.client.post(reverse('webhook'),
+                                    json.dumps(data),
+                                    content_type='application/json')
+        self.assertEqual(response.status_code, 200)
+        mock_logger.assert_called_once_with(dict(
+            msg='Received request',
+            event=data['entry'][0]['messaging'][0],
+            type='webhook_received_request'
+        ))
