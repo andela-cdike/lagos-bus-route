@@ -1,0 +1,35 @@
+language: python
+
+python:
+  - "2.7"
+
+# setup environment
+env:
+  - DJANGO_VERSION=1.10.4 DJANGO_SETTINGS_MODULE='lagos_bus_route.settings.test' SECRET_KEY='tqYV9DzPEXw0D25uNuk795eHxSOXppzuLEQYTZBA' DB_USER='postgres' DB_PASSWORD='' ALLOWED_HOSTS='.ngrok.io localhost' VERIFY_TOKEN='FACEBOOK_VERIFY_TOKEN' PAGE_ACCESS_TOKEN='EHRK5Bt64ltqYV9DzPEXw0D25uNuk795eHxSOXf63oVbWzduppzuLEQYTZBAgHBfcOtA6H09wGUZbq1jDq5gNKuJkXTfuZ9QhT2J' REDIS_HOST='localhost' REDIS_PORT='6379'
+
+# install dependencies
+install:
+  - pip install -r requirements.txt
+
+# addons
+addons:
+  postgresql: "9.6"
+
+# services
+services:
+  - postgresql
+  - redis-server
+
+# create a database
+before_script:
+  - psql -c 'create database test_lagos_bus_route;' -U postgres
+
+# run test scripts
+script:
+  - cd lagos_bus_route && coverage run --source=. manage.py test --noinput --settings=lagos_bus_route.settings.test
+
+# run coveralls after successful tests
+# after_success:
+#   - coveralls
+
+# Deploy to staging or production with proper settings
