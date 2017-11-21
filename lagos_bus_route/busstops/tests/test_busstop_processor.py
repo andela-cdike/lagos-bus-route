@@ -53,11 +53,13 @@ class BusstopProcessorTestSuite(BusStopDataSetup):
     @mock.patch.object(
         GoogleMapApiInterface,
         'get_nearby_busstops',
-        autospec=True,
-        return_value=[GoogleMapApiInterface.BusStopPayload(
-            obj.name, obj.place_id) for obj in [get_busstop('lawanson'), get_busstop('ogunlana')]]
+        autospec=True
     )
     def test_get_busstop_when_location_isnt_specific(self, mock_gmap_int_obj):
+        mock_gmap_int_obj.return_value = [GoogleMapApiInterface.BusStopPayload(
+            obj.name, obj.place_id) for obj in [
+                get_busstop('lawanson'), get_busstop('ogunlana')
+        ]]
         processor = BusstopProcessor('*st mulumba catholic church, surulere')
         result = processor.process()
         exp_output = {

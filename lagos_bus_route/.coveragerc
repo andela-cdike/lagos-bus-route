@@ -1,0 +1,13 @@
+# .coveragerc
+[run]
+source = .
+omit =
+        */migrations/*
+        */scripts/*
+        */settings/*
+        */tests/*
+        *apps.py*
+        *__init__.py*
+        *manage.py*
+        *urls.py*
+        *wsgi.py*
