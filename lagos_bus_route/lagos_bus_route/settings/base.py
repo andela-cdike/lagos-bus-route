@@ -125,3 +125,8 @@ REDIS_PORT = os.getenv('REDIS_PORT')
 BROKER_URL = 'redis://' + REDIS_HOST + ':' + REDIS_PORT + '/0'
 BROKER_TRANSPORT_OPTIONS = {'visibility_timeout': 3600}
 CELERY_RESULT_BACKEND = 'redis://' + REDIS_HOST + ':' + REDIS_PORT + '/0'
+
+
+# FACEBOOK RELATED SETTINGS
+FACEBOOK_BASE_URL = 'https://graph.facebook.com/v2.6'
+FACEBOOK_MESSAGES_URL = '{0}/me/messages'.format(FACEBOOK_BASE_URL)

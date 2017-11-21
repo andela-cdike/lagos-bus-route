@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 import functools
 import logging
 import jellyfish
+import string
 
 from django.utils.text import Truncator
 
@@ -53,7 +54,7 @@ def get_equivalent_busstop(location, sender_id):
         logger.warning(dict(
             msg=msg,
             location=location,
-            type='get_equivalent_busstop',
+            type='get_equivalent_busstop_failed',
             sender_id=sender_id
         ))
         raise BusStopNotFoundException(msg)
@@ -103,7 +104,7 @@ def deconstruct_message(message):
     :returns: a tuple of the source and destination parts of the address
     """
     components = message.split(';')
-    if len(components) != 2:
+    if len(components) != 2 or not components[1]:
         error_msg = (
             'Your request:\n {message:^35}\n is in an invalid format.')
         raise FormatException(error_msg.format(
@@ -128,6 +129,8 @@ def is_greeting_text(message):
     """Returns True if message is a greeting, else False"""
     greeting_text = ('hello', 'hi', 'how are you',
                      'whats up', 'how far', 'hey')
+
+    message = message.lower().translate(string.punctuation)
     jd_with_message = functools.partial(
         jellyfish.jaro_distance, message)
     return any(jd_with_message(text) > .8 for text in greeting_text)

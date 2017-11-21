@@ -1,5 +1,6 @@
 from __future__ import unicode_literals
 
+import ast
 import json
 import logging
 import os
@@ -65,12 +66,12 @@ class Webhook(View):
                             send_text_message(
                                 event['sender']['id'],
                                 'Ooops, something went wrong. Please try again')
-                    if event.get('postback'):
+                    elif event.get('postback'):
                         handle_postback(event)
                     else:
-                        logger.warn(dict(msg='Webhook received unknown event',
-                                         event=event,
-                                         type='webhook_unknown_event'))
+                        logger.warning(dict(msg='Webhook received unknown event',
+                                            event=event,
+                                            type='webhook_unknown_event'))
 
         # Assume all went well.
         #
@@ -94,10 +95,8 @@ def handle_message(event):
     message_attachments = message.get('attachments')
     send_typing_action(sender_id)
 
-    if is_greeting_text(message_text):
+    if is_greeting_text(message_text) or 'help' in message_text.lower():
         send_text_message(sender_id, get_greeting(sender_id))
-        send_instructions(sender_id)
-    elif 'help' in message_text.lower():
         send_instructions(sender_id)
     elif message_text:
         handle_route_calculation_request.delay(sender_id, message_text)
