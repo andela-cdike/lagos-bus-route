@@ -1,6 +1,3 @@
-from django_envie.workroom import convertfiletovars
-convertfiletovars()
-
 from .base import *
 
 
@@ -12,7 +9,7 @@ DATABASES = {
         'NAME': 'lagos_bus_route',
         'USER': os.getenv('DB_USER'),
         'PASSWORD': os.getenv('DB_PASSWORD'),
-        'HOST': '127.0.0.1',
+        'HOST': os.getenv('DB_HOST'),
         'PORT': '5432',
     }
 }

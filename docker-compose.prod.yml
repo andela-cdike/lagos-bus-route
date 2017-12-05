@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+
+  web:
+    image: electronitrix/lagosbusroute_web:latest
+
+  celery:
+    image: electronitrix/lagosbusroute_celery:latest

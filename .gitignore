@@ -20,6 +20,7 @@ coverage.xml
 
 # dotenv
 .env.*
+env-prod
 
 # private development files
 remember.md
@@ -34,3 +35,11 @@ test_script.py
 
 # redis
 dump.rdb
+
+# static files
+static/
+staticfiles/
+
+
+# docker
+secrets/

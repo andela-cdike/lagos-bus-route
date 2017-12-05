@@ -23,9 +23,15 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = bool(os.getenv('DEBUG', True))
 
 ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', default='').split()
+
+
+# ENVIRONMENT DEFINITION
+DEVELOPMENT = 'DEVELOPMENT'
+PRODUCTION = 'PRODUCTION'
+TESTING = 'TESTING'
 
 
 # Application definition
@@ -117,6 +123,16 @@ STATICFILES_DIRS = [
 ]
 
 STATIC_ROOT = os.path.join(os.path.dirname('BASE_DIR'), 'staticfiles')
+
+# Simplified static file serving.
+# https://warehouse.python.org/project/whitenoise/
+
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+
+STATICFILES_FINDERS = (
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+)
 
 
 # REDIS related settings

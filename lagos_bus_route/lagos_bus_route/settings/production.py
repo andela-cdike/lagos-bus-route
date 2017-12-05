@@ -1,14 +1,11 @@
 import os
 
-import dj_database_url
+# import dj_database_url
 
-from .base import *
-
-
-DATABASES = {'default': dj_database_url.config()}
+from .development import *
 
 
-SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+# DATABASES = {'default': dj_database_url.config()}
 
 
-ALLOWED_HOSTS = ['*']
+# SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')

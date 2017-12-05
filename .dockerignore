@@ -1,0 +1,20 @@
+# static content
+static
+staticfiles
+
+# coverage
+.coverage
+.coveragerc
+.dump.rdb
+
+# python object code
+*.pyc
+
+# scripts
+scripts/
+
+# factories
+factories/
+
+# tests
+tests/

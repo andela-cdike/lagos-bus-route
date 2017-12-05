@@ -2,10 +2,13 @@ celery==4.1.0
 coverage==4.3.1
 Django==1.10.4
 django-envie==0.0.9
+docker-compose==1.17.1
 factory-boy==2.8.1
 googlemaps==2.4.5
+gunicorn==19.7.1
 jellyfish==0.5.6
 mock==2.0.0
 psycopg2==2.6.2
 redis==2.10.6
 requests==2.11.1
+whitenoise==3.3.1

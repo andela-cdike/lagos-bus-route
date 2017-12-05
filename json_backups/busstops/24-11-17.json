@@ -1,0 +1,5358 @@
+[
+{
+    "model": "busstops.busstop",
+    "pk": 644,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "alaba",
+        "area": "surulere",
+        "latitude": "6.46734080000000000000",
+        "longitude": "3.32000610000000000000",
+        "place_id": "ChIJ4X19P0eJOxARcIfjC232m-4"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 645,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-28",
+        "name": "alaba express",
+        "area": "surulere",
+        "latitude": "6.46705599999999900000",
+        "longitude": "3.32030400000000000000",
+        "place_id": "ChIJtbt-OUeJOxARSzW2a1tOO0w"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 646,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "alaka",
+        "area": "surulere",
+        "latitude": "6.49101200000000000000",
+        "longitude": "3.36296440000000000000",
+        "place_id": "ChIJ_YQDP3KMOxARXzpx2WKT4Qg"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 647,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "barracks",
+        "area": "surulere",
+        "latitude": "6.50517900000000000000",
+        "longitude": "3.36368320000000000000",
+        "place_id": "ChIJRZ2KhUGMOxARXYJDyajQrcA"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 648,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "cele express",
+        "area": "surulere",
+        "latitude": "6.50590800000000100000",
+        "longitude": "3.32360030000000000000",
+        "place_id": "ChIJu6JR1JWOOxARctzaE_eA5y4"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 649,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "coker",
+        "area": "surulere",
+        "latitude": "6.47564240000000000000",
+        "longitude": "3.32708720000000000000",
+        "place_id": "ChIJM2hWaU6JOxARHffPgA4jh00"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 650,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "doyin",
+        "area": "surulere",
+        "latitude": "6.47939380000000000000",
+        "longitude": "3.34942060000000000000",
+        "place_id": "ChIJYVdjgveLOxARhK8RZa-v7qw"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 651,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "eric moore",
+        "area": "surulere",
+        "latitude": "6.48873870000000000000",
+        "longitude": "3.34870850000000000000",
+        "place_id": "ChIJv2hpiwWMOxARG6UUZGEvF8g"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 652,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "fountain",
+        "area": "surulere",
+        "latitude": "6.49422599999999900000",
+        "longitude": "3.34931730000000000000",
+        "place_id": "ChIJFZ31cxCMOxARQrKT7Nn2vbA"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 653,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "idowu street",
+        "area": "surulere",
+        "latitude": "6.50431230000000000000",
+        "longitude": "3.34039910000000000000",
+        "place_id": "ChIJZ-ZvaCCMOxARHRb_RVUkqG0"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 654,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "ishaga",
+        "area": "surulere",
+        "latitude": "6.51181999999999900000",
+        "longitude": "3.35886870000000000000",
+        "place_id": "ChIJNefNeTiMOxARIpN7Ab6DTOM"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 655,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "itire Rd Junction",
+        "area": "surulere",
+        "latitude": "6.50000000000000000000",
+        "longitude": "3.34999900000000000000",
+        "place_id": "ChIJz_BscheMOxARahqh9EabAWQ"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 656,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "kilo",
+        "area": "surulere",
+        "latitude": "6.50113390000000000000",
+        "longitude": "3.34618300000000000000",
+        "place_id": "ChIJla5f-RiMOxARnhx-ug0t2_0"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 657,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "lawanson",
+        "area": "surulere",
+        "latitude": "6.51249420000000000000",
+        "longitude": "3.34858780000000000000",
+        "place_id": "ChIJEWdpNiWMOxAR80IQy39jaB8"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 658,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "masha",
+        "area": "surulere",
+        "latitude": "6.50167730000000000000",
+        "longitude": "3.35054040000000000000",
+        "place_id": "ChIJf5lMuReMOxARRRhEB0iiFXg"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 659,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "merchant express aviation",
+        "area": "surulere",
+        "latitude": "6.49184880000000000000",
+        "longitude": "3.35664510000000000000",
+        "place_id": "ChIJreeZdw2MOxARry85PAFozDY"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 660,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "municipal",
+        "area": "surulere",
+        "latitude": "6.51207580000000000000",
+        "longitude": "3.35738540000000000000",
+        "place_id": "ChIJTQxdRDiMOxARY1wcJy4IB7c"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 661,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "odi oluwo",
+        "area": "surulere",
+        "latitude": "6.50141079999999900000",
+        "longitude": "3.32228060000000000000",
+        "place_id": "ChIJ2WjLXL6OOxARcBwtYq4rIqQ"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 662,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "ogosco",
+        "area": "surulere",
+        "latitude": "6.50247410000000000000",
+        "longitude": "3.34742370000000000000",
+        "place_id": "ChIJlTbSbRiMOxARKJeMJkox7F0"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 663,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "ogunlana",
+        "area": "surulere",
+        "latitude": "6.51220910000000000000",
+        "longitude": "3.35308580000000000000",
+        "place_id": "ChIJOb37OzqMOxAREIqWVfMLCQk"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 664,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "ojuelegba bus station",
+        "area": "surulere",
+        "latitude": "6.51160420000000000000",
+        "longitude": "3.36326480000000000000",
+        "place_id": "ChIJkY1cZEaMOxARvEIX3shw_Cw"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 665,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "okada junction",
+        "area": "surulere",
+        "latitude": "6.49112400000000000000",
+        "longitude": "3.33172740000000000000",
+        "place_id": "ChIJVfcXDK-OOxARHNDQY3XJX2E"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 666,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "okota link bridge",
+        "area": "surulere",
+        "latitude": "6.50478699999999900000",
+        "longitude": "3.32599300000000000000",
+        "place_id": "ChIJ9zcCSpaOOxARjkFVTcx0t9A"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 667,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "onilegogoro",
+        "area": "surulere",
+        "latitude": "6.50028090000000000000",
+        "longitude": "3.35417210000000000000",
+        "place_id": "ChIJpQHTKxSMOxAR6gRgY9HYg08"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 668,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "orile",
+        "area": "surulere",
+        "latitude": "6.47831160000000000000",
+        "longitude": "3.34407500000000000000",
+        "place_id": "ChIJG_OINPmLOxARI5HoxAiOqYs"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 669,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "sanya",
+        "area": "surulere",
+        "latitude": "6.48748890000000000000",
+        "longitude": "3.32500040000000000000",
+        "place_id": "ChIJjaXwX7GOOxAR3itcbcjg3Aw"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 670,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "shita",
+        "area": "surulere",
+        "latitude": "6.49949200000000000000",
+        "longitude": "3.35846900000000000000",
+        "place_id": "ChIJJw28yBSMOxARmepAWb_K9CE"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 671,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "stadium",
+        "area": "surulere",
+        "latitude": "6.50139480000000000000",
+        "longitude": "3.36262640000000000000",
+        "place_id": "ChIJ9XTwRmqMOxARjN8ROlarzzA"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 672,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "underbridge busstop kilo",
+        "area": "surulere",
+        "latitude": "6.50296709999999900000",
+        "longitude": "3.34841070000000000000",
+        "place_id": "ChIJ0ykLBhiMOxARrOXLcU3DOPA"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 673,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "ago roundabout",
+        "area": "oshodi-isolo",
+        "latitude": "6.51667550000000000000",
+        "longitude": "3.31912640000000000000",
+        "place_id": "ChIJL-aWKY2OOxARATazVtPZUYI"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 674,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "aswani market junction",
+        "area": "oshodi-isolo",
+        "latitude": "6.53828180000000100000",
+        "longitude": "3.33199290000000000000",
+        "place_id": "ChIJpzqxHHGOOxAR6s26TMdooWM"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 675,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "aye junction",
+        "area": "oshodi-isolo",
+        "latitude": "6.53019160000000000000",
+        "longitude": "3.32928660000000000000",
+        "place_id": "ChIJO99UVnuOOxARP2rBVlWH5q4"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 676,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "ballet",
+        "area": "oshodi-isolo",
+        "latitude": "6.51215579999999900000",
+        "longitude": "3.32780600000000000000",
+        "place_id": "ChIJ6YbAaJCOOxARq_3mbMGPRhI"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 677,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "barracks",
+        "area": "oshodi-isolo",
+        "latitude": "6.51810380000000000000",
+        "longitude": "3.31786040000000000000",
+        "place_id": "ChIJnfPtOPOOOxARie6c7wNohng"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 678,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "chemist",
+        "area": "oshodi-isolo",
+        "latitude": "6.52015050000000000000",
+        "longitude": "3.31761360000000000000",
+        "place_id": "ChIJceEpvfSOOxARg_X0mrhBeCw"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 679,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "ejigbo",
+        "area": "oshodi-isolo",
+        "latitude": "6.55185060000000000000",
+        "longitude": "3.30114480000000000000",
+        "place_id": "ChIJfbIfgjOOOxARsSPk1YJA9PM"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 680,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "gideon",
+        "area": "oshodi-isolo",
+        "latitude": "6.52463810000000000000",
+        "longitude": "3.31761360000000000000",
+        "place_id": "ChIJC6UAX_WOOxARuSPkviq6Gp4"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 681,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "isolo",
+        "area": "oshodi-isolo",
+        "latitude": "6.52910960000000000000",
+        "longitude": "3.32179250000000000000",
+        "place_id": "ChIJ63OTJGGOOxARFP2s7JjyXrA"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 682,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "jakande",
+        "area": "oshodi-isolo",
+        "latitude": "6.52962659999999900000",
+        "longitude": "3.30857990000000000000",
+        "place_id": "ChIJt8AzVleOOxARPdz_I8jshhM"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 683,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "lasu",
+        "area": "oshodi-isolo",
+        "latitude": "6.51430909999999900000",
+        "longitude": "3.32053180000000000000",
+        "place_id": "ChIJsyLdYo2OOxARKmg3ZNy98DE"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 684,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "nepa",
+        "area": "oshodi-isolo",
+        "latitude": "6.53914520000000000000",
+        "longitude": "3.30294730000000000000",
+        "place_id": "ChIJMToVO0yOOxARaSwqT5i7gGs"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 685,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "nnpc",
+        "area": "oshodi-isolo",
+        "latitude": "6.53588890000000000000",
+        "longitude": "3.30531300000000000000",
+        "place_id": "ChIJ36A0JE6OOxARd8UJTA5AjfU"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 686,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "oke afa",
+        "area": "oshodi-isolo",
+        "latitude": "6.53055400000000000000",
+        "longitude": "3.31252810000000000000",
+        "place_id": "ChIJW1hq51uOOxARdbI7PHDQFhU"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 687,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "ori-oke",
+        "area": "oshodi-isolo",
+        "latitude": "6.53940100000000000000",
+        "longitude": "3.29172490000000000000",
+        "place_id": "ChIJo06AF7GPOxARq474btxpUZo"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 688,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "pako",
+        "area": "oshodi-isolo",
+        "latitude": "6.52923220000000000000",
+        "longitude": "3.31740980000000000000",
+        "place_id": "ChIJs4LCbF6OOxAR3XQXPR61bP0"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 689,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "7/8",
+        "area": "mushin",
+        "latitude": "6.55082739999999900000",
+        "longitude": "3.33186150000000000000",
+        "place_id": "ChIJeWanLwyOOxARecVcivZd_jw"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 690,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "ap club",
+        "area": "mushin",
+        "latitude": "6.49868189999999900000",
+        "longitude": "3.37649350000000000000",
+        "place_id": "ChIJn-zydmGMOxARqRMZpxDVn0Y"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 691,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "cappa",
+        "area": "mushin",
+        "latitude": "6.54771499999999900000",
+        "longitude": "3.35525040000000000000",
+        "place_id": "ChIJw0gWOOqNOxAR-b4xdX5IOHI"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 692,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "challenge",
+        "area": "mushin",
+        "latitude": "6.53838039999999900000",
+        "longitude": "3.35464690000000000000",
+        "place_id": "ChIJ2dOGj8aNOxAReA29CpxMNGk"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 693,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "charity",
+        "area": "mushin",
+        "latitude": "6.55106719999999900000",
+        "longitude": "3.34013880000000000000",
+        "place_id": "ChIJednT9OGNOxARpeZfG31hdB8"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 694,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "cocacola",
+        "area": "mushin",
+        "latitude": "6.54451730000000000000",
+        "longitude": "3.35639830000000000000",
+        "place_id": "ChIJIQKDysGNOxARKr_d1QchI8U"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 695,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "five star",
+        "area": "mushin",
+        "latitude": "6.53799399999999900000",
+        "longitude": "3.33701130000000000000",
+        "place_id": "ChIJ9dFVTXaOOxARCTxTW9w2mr4"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 696,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "idi-oro",
+        "area": "mushin",
+        "latitude": "6.52394520000000000000",
+        "longitude": "3.36258890000000000000",
+        "place_id": "ChIJx8rQNkuMOxARuy0H5fsuVSo"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 697,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "ilasa",
+        "area": "mushin",
+        "latitude": "6.52234269999999900000",
+        "longitude": "3.33574290000000000000",
+        "place_id": "ChIJI9ga5ICOOxARLoFl5JAo-RY"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 698,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "iyana isolo",
+        "area": "mushin",
+        "latitude": "6.53149200000000000000",
+        "longitude": "3.33593850000000000000",
+        "place_id": "ChIJ4a4CGXmOOxARV_D_dTtSGE0"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 699,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "ladipo",
+        "area": "mushin",
+        "latitude": "6.57164360000000000000",
+        "longitude": "3.34509020000000000000",
+        "place_id": "ChIJVVO_vQaSOxARTomvpq3wVl4"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 700,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "moshalasi",
+        "area": "mushin",
+        "latitude": "6.45541550000000000000",
+        "longitude": "3.34049960000000000000",
+        "place_id": "ChIJVdytzNiLOxARJXz4y3Gcmxs"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 701,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "mushin",
+        "area": "mushin",
+        "latitude": "6.52987440000000000000",
+        "longitude": "3.35347210000000000000",
+        "place_id": "ChIJGwWeAsyNOxARofhNbapiAHE"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 702,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "olosha",
+        "area": "mushin",
+        "latitude": "6.52651140000000000000",
+        "longitude": "3.35799960000000000000",
+        "place_id": "ChIJt3N2ksqNOxARVuloFL9iQtI"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 703,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "olorunsogo",
+        "area": "mushin",
+        "latitude": "6.53503079999999900000",
+        "longitude": "3.35261110000000000000",
+        "place_id": "ChIJeyb5YM-NOxARlbb2ItV9DJM"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 704,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "toyota",
+        "area": "mushin",
+        "latitude": "6.54522350000000000000",
+        "longitude": "3.33795820000000000000",
+        "place_id": "ChIJnwbhRXWOOxARXrw6mnOR1v4"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 705,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "jibowu",
+        "area": "somolu",
+        "latitude": "6.51913250000000000000",
+        "longitude": "3.36807130000000000000",
+        "place_id": "ChIJJRQyCk6MOxAR5b1DgiCWh48"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 706,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "fadeyi",
+        "area": "somolu",
+        "latitude": "6.52503250000000000000",
+        "longitude": "3.36768470000000000000",
+        "place_id": "ChIJa743z7KNOxARJrdDVyDwsGo"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 707,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "onipanu",
+        "area": "somolu",
+        "latitude": "6.53294920000000000000",
+        "longitude": "3.36749100000000000000",
+        "place_id": "ChIJMVpLTrCNOxAR27NiH0-IBoA"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 708,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "palmgrove",
+        "area": "somolu",
+        "latitude": "6.54160750000000000000",
+        "longitude": "3.36740080000000000000",
+        "place_id": "ChIJv7r4kryNOxARBGdgkk9n4Zs"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 709,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "obanikoro",
+        "area": "somolu",
+        "latitude": "6.54685959999999900000",
+        "longitude": "3.36677850000000000000",
+        "place_id": "ChIJo5qhy5eNOxARVyONC2WWmy0"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 710,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "anthony",
+        "area": "somolu",
+        "latitude": "6.55719370000000000000",
+        "longitude": "3.36689640000000000000",
+        "place_id": "ChIJoY3DzY-NOxARNiIFet66ixQ"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 711,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "ikeja along",
+        "area": "ikeja",
+        "latitude": "6.59476630000000000000",
+        "longitude": "3.33555760000000000000",
+        "place_id": "ChIJuQQZb4mROxARq-K4RMdUzLM"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 712,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "ikeja plaza roundabout",
+        "area": "ikeja",
+        "latitude": "6.53060200000000000000",
+        "longitude": "3.32575000000000000000",
+        "place_id": "ChIJD1PtemSOOxARwP_68JfGZPs"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 713,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "bus garage",
+        "area": "ikeja",
+        "latitude": "6.59607950000000000000",
+        "longitude": "3.33785600000000000000",
+        "place_id": "ChIJCV77y4mROxAR2AO5zUXn8oI"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 714,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "ikeja",
+        "area": "ikeja",
+        "latitude": "6.59938650000000000000",
+        "longitude": "3.34314550000000000000",
+        "place_id": "ChIJ75GqpyiSOxARSpgCTsLLtLs"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 715,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "balogun",
+        "area": "ikeja",
+        "latitude": "6.60400120000000000000",
+        "longitude": "3.34555150000000000000",
+        "place_id": "ChIJUYE6mi6SOxAR_N48tjQII1E"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 716,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "allen",
+        "area": "ikeja",
+        "latitude": "6.60665500000000000000",
+        "longitude": "3.34872190000000000000",
+        "place_id": "ChIJQ7Jnhi2SOxARSMgfKFlnQD0"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 717,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "aromire",
+        "area": "ikeja",
+        "latitude": "6.60774470000000000000",
+        "longitude": "3.34856090000000000000",
+        "place_id": "ChIJFbATey2SOxARjO52qjXSuJg"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 718,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "alade",
+        "area": "ikeja",
+        "latitude": "6.60522419999999900000",
+        "longitude": "3.34989670000000000000",
+        "place_id": "ChIJawuyEDKSOxARlNjRNM-R4sA"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 719,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "ladipo",
+        "area": "ikeja",
+        "latitude": "6.60014580000000000000",
+        "longitude": "3.35268880000000000000",
+        "place_id": "ChIJ8VoJljCSOxAREwWZyhU-bik"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 720,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "hospital",
+        "area": "ikeja",
+        "latitude": "6.59903480000000000000",
+        "longitude": "3.35301880000000000000",
+        "place_id": "ChIJbw8wCjqSOxARbJr9msCcJL0"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 721,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "oshopey",
+        "area": "ikeja",
+        "latitude": "6.59852320000000000000",
+        "longitude": "3.35331380000000000000",
+        "place_id": "ChIJxYjmDzqSOxARbJKuFIw4_8g"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 722,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "sensation",
+        "area": "ikeja",
+        "latitude": "6.59504340000000000000",
+        "longitude": "3.35575190000000000000",
+        "place_id": "ChIJUcILPTmSOxAREnpyJ6B469w"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 723,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "awosika",
+        "area": "ikeja",
+        "latitude": "6.59409220000000000000",
+        "longitude": "3.35725130000000000000",
+        "place_id": "ChIJ8VLDzTiSOxARHqBjq2guZYo"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 724,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "salvation",
+        "area": "ikeja",
+        "latitude": "6.59015680000000000000",
+        "longitude": "3.36042170000000000000",
+        "place_id": "ChIJpas6QkCSOxARjOn8UNCrV9M"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 725,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "ajao estate",
+        "area": "ikeja",
+        "latitude": "6.55197850000000000000",
+        "longitude": "3.32909350000000000000",
+        "place_id": "ChIJvdhPAw6OOxARTkN1vzEfOdA"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 726,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "first gate",
+        "area": "ikeja",
+        "latitude": "6.59195530000000000000",
+        "longitude": "3.34873800000000000000",
+        "place_id": "ChIJle9AMiOSOxARQ8smcJInEPs"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 727,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "abule",
+        "area": "ikeja",
+        "latitude": "6.58701270000000000000",
+        "longitude": "3.35700990000000000000",
+        "place_id": "ChIJwWkkQG2SOxAR3_9I6AJ798M"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 728,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "base",
+        "area": "ikeja",
+        "latitude": "6.57516080000000000000",
+        "longitude": "3.33415480000000000000",
+        "place_id": "ChIJVbUtf_mROxAR5reNEmhGL_g"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 729,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "mmia",
+        "area": "ikeja",
+        "latitude": "6.57691100000000000000",
+        "longitude": "3.32386200000000000000",
+        "place_id": "mmia_busstop"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 730,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "airport",
+        "area": "ikeja",
+        "latitude": "6.58849810000000000000",
+        "longitude": "3.33375920000000000000",
+        "place_id": "ChIJve8NVfOROxAReW3v8p8ZMGw"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 731,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "kingsway",
+        "area": "maryland",
+        "latitude": "6.57720189999999900000",
+        "longitude": "3.36095270000000000000",
+        "place_id": "ChIJefs1hXKSOxARr51nApKjcws"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 732,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "leventis",
+        "area": "maryland",
+        "latitude": "6.57405770000000000000",
+        "longitude": "3.36245480000000000000",
+        "place_id": "ChIJZ3gTvHOSOxARqEHcKwStr5I"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 733,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "onigbongbo",
+        "area": "maryland",
+        "latitude": "6.57257079999999900000",
+        "longitude": "3.36556610000000000000",
+        "place_id": "ChIJB230NHGSOxARL1FKHMS5cSc"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 734,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "bus stop",
+        "area": "maryland",
+        "latitude": "38.97903170000000000000",
+        "longitude": "-76.55482160000000000000",
+        "place_id": "ChIJ_wiMcTzxt4kRyGwYpwtnlnM"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 735,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "radio",
+        "area": "ikeja",
+        "latitude": "6.61280169999999900000",
+        "longitude": "3.35422840000000000000",
+        "place_id": "ChIJ7Ts0gcuTOxARhjLisnUT1YM"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 736,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "elephant",
+        "area": "ikeja",
+        "latitude": "6.61536750000000000000",
+        "longitude": "3.35709040000000000000",
+        "place_id": "ChIJg-o-hsmTOxARZq6aCaJKlZQ"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 737,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "alausa",
+        "area": "ikeja",
+        "latitude": "6.60908490000000000000",
+        "longitude": "3.35661020000000000000",
+        "place_id": "ChIJi_bCJzWSOxARdprbNEA9fdo"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 738,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "ojodu/berger",
+        "area": "ikeja",
+        "latitude": "6.63984430000000000000",
+        "longitude": "3.36789430000000000000",
+        "place_id": "ChIJA_ckaJCTOxARzUDI2Pykywg"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 739,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "pwd",
+        "area": "ikeja",
+        "latitude": "6.58293060000000000000",
+        "longitude": "3.34031580000000000000",
+        "place_id": "ChIJnfqA3h2SOxARB4OxbtoWeBo"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 740,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "ajayi farm",
+        "area": "ikeja",
+        "latitude": "6.59999130000000000000",
+        "longitude": "3.33362240000000000000",
+        "place_id": "ChIJAcY344WROxARvHpBAMNzSqo"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 741,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "ile zik",
+        "area": "ikeja",
+        "latitude": "6.60230270000000000000",
+        "longitude": "3.33213510000000000000",
+        "place_id": "ChIJM9CBToSROxAR1WfzPBUnneo"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 742,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "nigerite",
+        "area": "ikeja",
+        "latitude": "6.60559990000000000000",
+        "longitude": "3.33691210000000000000",
+        "place_id": "ChIJwdBh24CROxARaRsM_AFbhzU"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 743,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "wahum",
+        "area": "ikeja",
+        "latitude": "6.60594089999999900000",
+        "longitude": "3.33912220000000000000",
+        "place_id": "ChIJgSDKdCqSOxARCAnJwm5iBzU"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 744,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "maryland",
+        "area": "maryland",
+        "latitude": "38.97916910000000000000",
+        "longitude": "-76.55487320000000000000",
+        "place_id": "ChIJi4B13en2t4kR59_b2RiQ6C8"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 745,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "aba johnson",
+        "area": "ikeja",
+        "latitude": "6.61334790000000000000",
+        "longitude": "3.34549250000000000000",
+        "place_id": "ChIJlY-BvNOTOxARkKgsDdE0dBQ"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 746,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "haco",
+        "area": "ikeja",
+        "latitude": "6.61468009999999900000",
+        "longitude": "3.34575000000000000000",
+        "place_id": "ChIJ07Dz2tOTOxARMNhvoYJZ8hs"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 747,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "vintage",
+        "area": "ikeja",
+        "latitude": "6.61647050000000000000",
+        "longitude": "3.34572850000000000000",
+        "place_id": "ChIJ7VE-bdGTOxARKrpNcySSUVE"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 748,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "vulcaniser",
+        "area": "ikeja",
+        "latitude": "6.62055760000000000000",
+        "longitude": "3.34524570000000000000",
+        "place_id": "ChIJ6dlbddqTOxAROUrxEGKyr8o"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 749,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "ogba",
+        "area": "ikeja",
+        "latitude": "6.63266149999999900000",
+        "longitude": "3.34130290000000000000",
+        "place_id": "ChIJJYa4X-CTOxARUAojNmWgrXA"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 750,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "second gate",
+        "area": "ikeja",
+        "latitude": "6.61032920000000000000",
+        "longitude": "3.33595190000000000000",
+        "place_id": "ChIJKRuRe3-ROxARz-Y34loBgRg"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 751,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "odo eran",
+        "area": "ikeja",
+        "latitude": "6.62624330000000000000",
+        "longitude": "3.33591700000000000000",
+        "place_id": "ChIJa0xFfGGROxAR1R9mXgA-s6w"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 752,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "ijaiye housing estate entrance",
+        "area": "ikeja",
+        "latitude": "6.62884630000000000000",
+        "longitude": "3.32777380000000000000",
+        "place_id": "ChIJWWYJYWiROxARnH37ABmUm2U"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 753,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "agege pen cinema",
+        "area": "ikeja",
+        "latitude": "6.62729599999999900000",
+        "longitude": "3.32270100000000000000",
+        "place_id": "ChIJZctm6muROxARMdQV4Esu0l4"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 754,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-03-11",
+        "name": "bank",
+        "area": "ikeja",
+        "latitude": "6.60800320000000000000",
+        "longitude": "3.33621740000000000000",
+        "place_id": "ChIJdwSKsoGROxAR09qW7B9I_UQ"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 755,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "mangoro",
+        "area": "agege",
+        "latitude": "6.60790190000000000000",
+        "longitude": "3.32753780000000000000",
+        "place_id": "ChIJSSt7GJ2ROxARJ-DkFrtU8IY"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 756,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "cement",
+        "area": "agege",
+        "latitude": "6.60679080000000000000",
+        "longitude": "3.31843430000000000000",
+        "place_id": "ChIJlzIu16GROxARxsRUL56U0vY"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 757,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "dopemu",
+        "area": "agege",
+        "latitude": "6.60964840000000000000",
+        "longitude": "3.30781950000000000000",
+        "place_id": "ChIJb9i1G6iROxARghJr6jmmNjc"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 758,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "pako",
+        "area": "agege",
+        "latitude": "6.60934740000000000000",
+        "longitude": "3.30768470000000000000",
+        "place_id": "ChIJT5Y6F6iROxARUqd9GsGZxh4"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 759,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "adealu",
+        "area": "agege",
+        "latitude": "6.61275110000000100000",
+        "longitude": "3.30502870000000000000",
+        "place_id": "ChIJiyzPHweROxARjgVYGQE9Z2o"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 760,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "iyana-ipaja",
+        "area": "agege",
+        "latitude": "6.61815570000000100000",
+        "longitude": "3.30277960000000000000",
+        "place_id": "ChIJcfIgdgOROxARyaJoj08zAjc"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 761,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "araromi",
+        "area": "agege",
+        "latitude": "6.61403689999999900000",
+        "longitude": "3.30362890000000000000",
+        "place_id": "ChIJRz8yNQGROxARiqxza55Gw-E"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 762,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "cele",
+        "area": "alimosho",
+        "latitude": "6.60256780000000000000",
+        "longitude": "3.30909490000000000000",
+        "place_id": "ChIJl0NGCa-ROxARdSxOmqGD0Eo"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 763,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "ile-iwe",
+        "area": "alimosho",
+        "latitude": "6.54464530000000100000",
+        "longitude": "3.27700500000000000000",
+        "place_id": "ChIJb1u-E5WPOxAR-Vga982JJU0"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 764,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "synagogue",
+        "area": "alimosho",
+        "latitude": "6.54625480000000000000",
+        "longitude": "3.27220920000000000000",
+        "place_id": "ChIJ-aSBNZOPOxAR8ZLlINQ4YGI"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 765,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "ikotun",
+        "area": "alimosho",
+        "latitude": "6.54893810000000000000",
+        "longitude": "3.26781570000000000000",
+        "place_id": "ChIJjfs5hfKPOxAR6l6jE8XTukU"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 766,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "first gate",
+        "area": "amuwo-odofin",
+        "latitude": "6.45994230000000000000",
+        "longitude": "3.30098390000000000000",
+        "place_id": "ChIJ2yNenh-JOxAR1uIAGQELczM"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 767,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "naid",
+        "area": "amuwo-odofin",
+        "latitude": "6.45854580000000000000",
+        "longitude": "3.29644560000000000000",
+        "place_id": "ChIJ1wd4U-CIOxARKfVwm0e2AMU"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 768,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "church",
+        "area": "amuwo-odofin",
+        "latitude": "6.45862040000000000000",
+        "longitude": "3.29552290000000000000",
+        "place_id": "ChIJLcrG_OCIOxARWF3yy-4qb-s"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 769,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "pako",
+        "area": "amuwo-odofin",
+        "latitude": "6.45968380000000000000",
+        "longitude": "3.28954960000000000000",
+        "place_id": "ChIJS4TrweeIOxARqRX6sjD_eO0"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 770,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "agboju",
+        "area": "amuwo-odofin",
+        "latitude": "6.45967580000000000000",
+        "longitude": "3.28609230000000000000",
+        "place_id": "ChIJaSbBSuiIOxAREEmNA6DrAGU"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 771,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "oluti",
+        "area": "amuwo-odofin",
+        "latitude": "6.45878299999999900000",
+        "longitude": "3.27782570000000000000",
+        "place_id": "ChIJORsbJpWIOxARHRVdIf83Y9E"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 772,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "alakija",
+        "area": "amuwo-odofin",
+        "latitude": "6.45771420000000000000",
+        "longitude": "3.27128650000000000000",
+        "place_id": "ChIJw_aH5JaIOxARbN5Pfx0bIv0"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 773,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "v-niger",
+        "area": "amuwo-odofin",
+        "latitude": "6.45714120000000100000",
+        "longitude": "3.26128990000000000000",
+        "place_id": "ChIJo9Wfe56IOxAR49JD63plw_E"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 774,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "abule-ado",
+        "area": "amuwo-odofin",
+        "latitude": "6.45627500000000000000",
+        "longitude": "3.25621780000000000000",
+        "place_id": "ChIJKcTl0yCGOxARWI_R41rlpsQ"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 775,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "onireke",
+        "area": "amuwo-odofin",
+        "latitude": "6.45970510000000000000",
+        "longitude": "3.23079590000000000000",
+        "place_id": "ChIJB-bqWEKGOxAR4t-o0V8753g"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 776,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "barracks",
+        "area": "amuwo-odofin",
+        "latitude": "6.46073120000000000000",
+        "longitude": "3.22948690000000000000",
+        "place_id": "ChIJO07ml0KGOxARQNdaMjgK1-8"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 777,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "trade fair",
+        "area": "amuwo-odofin",
+        "latitude": "6.45609510000000000000",
+        "longitude": "3.24599590000000000000",
+        "place_id": "ChIJtajFgTyGOxAR2L71x-bU3Mw"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 778,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "abule-oshun",
+        "area": "amuwo-odofin",
+        "latitude": "6.45626200000000000000",
+        "longitude": "3.24430900000000000000",
+        "place_id": "ChIJtyy4CzyGOxARpqRcyL9hPhk"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 779,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "besam",
+        "area": "ikeja",
+        "latitude": "6.56976270000000000000",
+        "longitude": "3.33177260000000000000",
+        "place_id": "ChIJEcT7q_2ROxARFjiEzCzgjnQ"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 780,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "iyana school",
+        "area": "ketu",
+        "latitude": "6.60301319999999900000",
+        "longitude": "3.39026729999999900000",
+        "place_id": "ChIJzbMwv-SSOxARTmTQPEDxav4"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 781,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "maryland",
+        "area": "kosofe",
+        "latitude": "6.57128649999999900000",
+        "longitude": "3.36710040000000000000",
+        "place_id": "ChIJW_QFI3eSOxARGi_7P3VJhuU"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 782,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "anthony",
+        "area": "kosofe",
+        "latitude": "6.55870680000000000000",
+        "longitude": "3.36698230000000000000",
+        "place_id": "ChIJD5e5ro-NOxAReu_S0Ni9A2I"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 783,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "idiroko",
+        "area": "ikeja",
+        "latitude": "6.56504070000000000000",
+        "longitude": "3.36630640000000000000",
+        "place_id": "ChIJG2bjrYmNOxAR-WC626h4VUI"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 784,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "ojota bus station",
+        "area": "kosofe",
+        "latitude": "6.58769240000000000000",
+        "longitude": "3.37930300000000000000",
+        "place_id": "ChIJ-x5fx3qSOxAReRobbZ3pM1E"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 785,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "ojota",
+        "area": "kosofe",
+        "latitude": "6.58783870000000000000",
+        "longitude": "3.37844070000000000000",
+        "place_id": "ChIJrdkGD2CSOxARpAYD3MbuleE"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 786,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "ketu",
+        "area": "kosofe",
+        "latitude": "6.59809690000000000000",
+        "longitude": "3.38616010000000000000",
+        "place_id": "ChIJuc8-jvCSOxARUPyyCgnbv2o"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 787,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "owode",
+        "area": "kosofe",
+        "latitude": "6.61050240000000000000",
+        "longitude": "3.41085790000000000000",
+        "place_id": "ChIJUSVIPiiTOxAR49HgICFXd_4"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 788,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "tincan 1st gate",
+        "area": "apapa",
+        "latitude": "6.43431300000000000000",
+        "longitude": "3.34208880000000000000",
+        "place_id": "ChIJwyrN2SuKOxARWPpzgignfvc"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 789,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "tincan 2nd gate",
+        "area": "apapa",
+        "latitude": "6.43625900000000100000",
+        "longitude": "3.35558030000000000000",
+        "place_id": "ChIJhfiHWzSKOxARSoPTiXb_9i4"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 790,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "liverpool",
+        "area": "apapa",
+        "latitude": "6.44009170000000000000",
+        "longitude": "3.35946680000000000000",
+        "place_id": "ChIJJRhvWrWLOxARJWtQM4eXTbA"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 791,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "trebor",
+        "area": "apapa",
+        "latitude": "6.43949699999999900000",
+        "longitude": "3.36206590000000000000",
+        "place_id": "ChIJI4r40rSLOxARFdp_hIfhqws"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 792,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-03-11",
+        "name": "ijesha",
+        "area": "amuwo odofin",
+        "latitude": "6.49313870000000000000",
+        "longitude": "3.32253280000000000000",
+        "place_id": "ChIJLSpV57mOOxARWbOiJ9h-iac"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 793,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "wharf",
+        "area": "apapa",
+        "latitude": "6.44140540000000000000",
+        "longitude": "3.37760120000000000000",
+        "place_id": "ChIJMwd58aqLOxARW0aPM-_wtXk"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 794,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "eleganza",
+        "area": "apapa",
+        "latitude": "6.44341229999999900000",
+        "longitude": "3.37446030000000000000",
+        "place_id": "ChIJyQl-9KuLOxARAqFkVFlRue4"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 795,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "berger car depot bridge",
+        "area": "ajeromi-ifelodun",
+        "latitude": "6.45050200000000000000",
+        "longitude": "3.31922800000000000000",
+        "place_id": "ChIJcyogV22JOxAR007BV5b83Hw"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 796,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "berger/kirikiri",
+        "area": "ajeromi-ifelodun",
+        "latitude": "6.44878580000000000000",
+        "longitude": "3.31849870000000000000",
+        "place_id": "ChIJ-W3JNQ2JOxARkKYxcPbovrs"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 797,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "sunrise",
+        "area": "ajeromi-ifelodun",
+        "latitude": "6.44279659999999900000",
+        "longitude": "3.32184080000000000000",
+        "place_id": "ChIJkXU6UHSJOxARZvq07WORSNI"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 798,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-03-11",
+        "name": "apapa express way",
+        "area": "ajeromi-ifelodun",
+        "latitude": "6.44166660000000000000",
+        "longitude": "3.32519620000000000000",
+        "place_id": "ChIJNTseXXaJOxARfIkLH9S9yC0"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 799,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "trinity",
+        "area": "ajeromi-ifelodun",
+        "latitude": "6.44787430000000000000",
+        "longitude": "3.32336430000000000000",
+        "place_id": "ChIJeT0kLHKJOxAR4P8mXVCJ5tc"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 800,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-09-01",
+        "name": "ware house",
+        "area": "ajeromi-ifelodun",
+        "latitude": "6.44107250000000000000",
+        "longitude": "3.32970500000000000000",
+        "place_id": "ChIJkykxPHiJOxARL_cKxqn2OwE"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 801,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "coconut",
+        "area": "ajeromi-ifelodun",
+        "latitude": "6.44006500000000000000",
+        "longitude": "3.33513920000000000000",
+        "place_id": "ChIJ0-uOZ3-JOxARb9eZr4A3BQ0"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 802,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "leventis",
+        "area": "lagos island",
+        "latitude": "6.45876230000000000000",
+        "longitude": "3.38265640000000000000",
+        "place_id": "ChIJiXRZEQuLOxARkIYITpEdUDQ"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 803,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "cms",
+        "area": "lagos island",
+        "latitude": "6.45104060000000000000",
+        "longitude": "3.39163180000000000000",
+        "place_id": "ChIJFXOMYBCLOxARib_sMoIGIck"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 804,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "barracks",
+        "area": "lagos island",
+        "latitude": "6.44121640000000000000",
+        "longitude": "3.40224270000000000000",
+        "place_id": "ChIJF7Qt-iCLOxARlUDmdxgZLOw"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 805,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "obalende",
+        "area": "lagos island",
+        "latitude": "6.45158690000000000000",
+        "longitude": "3.40822400000000000000",
+        "place_id": "ChIJA262kjqLOxARjFMEfTkCn84"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 806,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "legico",
+        "area": "eti-osa",
+        "latitude": "6.43289000000000000000",
+        "longitude": "3.40902000000000000000",
+        "place_id": "ChIJmQkDD9qKOxARWyVq0G576SU"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 807,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "silverbird galleria",
+        "area": "eti-osa",
+        "latitude": "6.42767130000000000000",
+        "longitude": "3.40878730000000000000",
+        "place_id": "ChIJ07xFRcWKOxARhJmtXUg81ag"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 808,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "nta",
+        "area": "eti-osa",
+        "latitude": "6.42424960000000000000",
+        "longitude": "3.40917140000000000000",
+        "place_id": "ChIJ87lIC8aKOxARwYpzD7Hs8eA"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 809,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "mrs station",
+        "area": "eti-osa",
+        "latitude": "6.42246000000000100000",
+        "longitude": "3.41169000000000000000",
+        "place_id": "ChIJCX1J18iKOxARC-IS6ZtpraE"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 810,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "bishop oluwole",
+        "area": "eti-osa",
+        "latitude": "6.42224000000000000000",
+        "longitude": "3.41370000000000000000",
+        "place_id": "ChIJEyupRcmKOxARkljwbLF6Ldg"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 811,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "oduduwa house",
+        "area": "eti-osa",
+        "latitude": "6.42238000000000000000",
+        "longitude": "3.41822000000000000000",
+        "place_id": "ChIJC7DnZ8uKOxARExCmdNDQwmk"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 812,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "akin adesola(dhl)",
+        "area": "eti-osa",
+        "latitude": "6.42650000000000100000",
+        "longitude": "3.42401000000000000000",
+        "place_id": "ChIJ5braJDL1OxARt91M6gItilQ"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 813,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "taimiyu savage junction",
+        "area": "eti-osa",
+        "latitude": "6.42275999999999900000",
+        "longitude": "3.42545000000000000000",
+        "place_id": "ChIJ30Gjszb1OxARCirRJdmhPVI"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 814,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "oceanview",
+        "area": "eti-osa",
+        "latitude": "6.42328000000000000000",
+        "longitude": "3.42763000000000000000",
+        "place_id": "ChIJax4o0jD1OxARTHBWSJqvBbY"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 815,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "eko hotel",
+        "area": "eti-osa",
+        "latitude": "6.42643429999999900000",
+        "longitude": "3.43110960000000000000",
+        "place_id": "ChIJLdlN7Dr1OxARU93NhGr-NF4"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 816,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "eko hotel roundabout",
+        "area": "eti-osa",
+        "latitude": "6.43085370000000000000",
+        "longitude": "3.43000350000000000000",
+        "place_id": "ChIJl2i6eCX1OxARlHb_Kavg4P4"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 817,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "idejo street",
+        "area": "eti-osa",
+        "latitude": "6.42999550000000000000",
+        "longitude": "3.41120120000000000000",
+        "place_id": "ChIJq0t9RtCKOxARnSvH3oHZg_Y"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 818,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "adeola odeku (first bank)",
+        "area": "eti-osa",
+        "latitude": "6.43072000000000000000",
+        "longitude": "3.41358000000000000000",
+        "place_id": "ChIJc2QDnNGKOxAR02iRX2Nj1jg"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 819,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "federal palace",
+        "area": "eti-osa",
+        "latitude": "6.43069910000000000000",
+        "longitude": "3.40888380000000000000",
+        "place_id": "ChIJZ5rjhdqKOxARTK5BMec1mxs"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 820,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "glo",
+        "area": "eti-osa",
+        "latitude": "6.43033130000000000000",
+        "longitude": "3.41308310000000000000",
+        "place_id": "ChIJ3YVnbtqKOxARhfKp4fMbD2w"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 821,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "post office victoria island",
+        "area": "eti-osa",
+        "latitude": "6.43069200000000100000",
+        "longitude": "3.41677850000000000000",
+        "place_id": "ChIJ0T9WUdKKOxARDAOty-clBEk"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 822,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "park & shop",
+        "area": "eti-osa",
+        "latitude": "6.42979999999999900000",
+        "longitude": "3.42049000000000000000",
+        "place_id": "ChIJhwbVOC31OxARp8kNX_3Urmw"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 823,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "hyundai showrooms",
+        "area": "eti-osa",
+        "latitude": "6.42943000000000100000",
+        "longitude": "3.42121000000000000000",
+        "place_id": "ChIJJVNdbC31OxARSEkNq8fqQHM"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 824,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "plaza 307",
+        "area": "eti-osa",
+        "latitude": "6.42923000000000000000",
+        "longitude": "3.42297000000000000000",
+        "place_id": "ChIJD4ZDkS31OxAR06Zes7VdHwI"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 825,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "phillips(akin adesola)",
+        "area": "eti-osa",
+        "latitude": "6.42856000000000000000",
+        "longitude": "3.42388000000000000000",
+        "place_id": "ChIJaSs_9y31OxARrakFHZWt5xM"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 826,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "toyota(akin adesola)",
+        "area": "eti-osa",
+        "latitude": "6.42516000000000000000",
+        "longitude": "3.42391000000000000000",
+        "place_id": "ChIJuzYxzjP1OxARMEEbJCZOCC8"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 827,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "island hotel",
+        "area": "eti-osa",
+        "latitude": "6.42261000000000000000",
+        "longitude": "3.41919000000000000000",
+        "place_id": "ChIJ94JEUcuKOxARGO9FpCyw-aM"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 828,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "oniru beach",
+        "area": "eti-osa",
+        "latitude": "6.43673079999999900000",
+        "longitude": "3.41918890000000000000",
+        "place_id": "ChIJMyGXLtWKOxARMAIInwg9OY0"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 829,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "law school",
+        "area": "eti-osa",
+        "latitude": "6.43890830000000000000",
+        "longitude": "3.42508440000000000000",
+        "place_id": "ChIJYVh-_Sn1OxAR0bq6nTfIJlM"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 830,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "sandfill",
+        "area": "eti-osa",
+        "latitude": "6.43583250000000000000",
+        "longitude": "3.44246510000000000000",
+        "place_id": "ChIJJ2Gb_h71OxARjzYGSHhFu8U"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 831,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "oniru estate",
+        "area": "eti-osa",
+        "latitude": "6.43730650000000000000",
+        "longitude": "3.45124390000000000000",
+        "place_id": "ChIJU8zj6gL1OxARCv0v5i0R2RY"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 832,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "1st roundabout lekki",
+        "area": "eti-osa",
+        "latitude": "6.43605109999999900000",
+        "longitude": "3.45510360000000000000",
+        "place_id": "ChIJHZFhfwH1OxAR1YHDeuylW7w"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 833,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "new market",
+        "area": "eti-osa",
+        "latitude": "6.43451590000000000000",
+        "longitude": "3.45647690000000000000",
+        "place_id": "ChIJlb4oPAH1OxAR-OvQ3DaxICo"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 834,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "jazz 38",
+        "area": "eti-osa",
+        "latitude": "6.43027270000000000000",
+        "longitude": "3.46503850000000000000",
+        "place_id": "ChIJCzm5LK_1OxARKL1rP7_Twc8"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 835,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "2nd roundabout lekki",
+        "area": "eti-osa",
+        "latitude": "6.43099770000000000000",
+        "longitude": "3.46872390000000000000",
+        "place_id": "ChIJYzz3Sa71OxARkxpCBLdwi1Y"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 836,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "mobolaji johnson",
+        "area": "eti-osa",
+        "latitude": "6.43114690000000000000",
+        "longitude": "3.47101180000000000000",
+        "place_id": "ChIJixfXyLH1OxAR2kWwkGruoRk"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 837,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "elf",
+        "area": "eti-osa",
+        "latitude": "6.43176529999999900000",
+        "longitude": "3.47497340000000000000",
+        "place_id": "ChIJRYziNLH1OxARv80oKlGVW-0"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 838,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "3rd roundabout lekki",
+        "area": "eti-osa",
+        "latitude": "6.43289540000000000000",
+        "longitude": "3.48220470000000000000",
+        "place_id": "ChIJ63mBhsn1OxARLxSASGwQbpk"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 839,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "chisco",
+        "area": "eti-osa",
+        "latitude": "6.43454020000000000000",
+        "longitude": "3.49195580000000000000",
+        "place_id": "ChIJ57msRdL1OxARILM0D7QgTdk"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 840,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "ilasan",
+        "area": "eti-osa",
+        "latitude": "6.43451590000000000000",
+        "longitude": "3.49389910000000000000",
+        "place_id": "ChIJpQSbv9P1OxARrfVgsAj8EcU"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 841,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "salem",
+        "area": "eti-osa",
+        "latitude": "6.43523020000000000000",
+        "longitude": "3.49856080000000000000",
+        "place_id": "ChIJI7cPpdX1OxAR_kksUB5n0MA"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 842,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "5th roundabout lekki",
+        "area": "eti-osa",
+        "latitude": "6.43671209999999900000",
+        "longitude": "3.50808260000000000000",
+        "place_id": "ChIJz0krCn32OxARbNIEkfVjY68"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 843,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "agungi",
+        "area": "eti-osa",
+        "latitude": "6.43785820000000000000",
+        "longitude": "3.51669250000000000000",
+        "place_id": "ChIJP0oT52H2OxARXidCqlbyCq8"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 844,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "6th roundabout lekki",
+        "area": "eti-osa",
+        "latitude": "6.43868010000000000000",
+        "longitude": "3.52174900000000000000",
+        "place_id": "ChIJXy7HXfX2OxARChc4Nt0qcSE"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 845,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "igbo efon",
+        "area": "eti-osa",
+        "latitude": "6.43014090000000000000",
+        "longitude": "3.52462710000000000000",
+        "place_id": "ChIJiTYLefX2OxARDRjuXajpagI"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 846,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "kings guard",
+        "area": "eti-osa",
+        "latitude": "6.44063540000000000000",
+        "longitude": "3.52959390000000000000",
+        "place_id": "ChIJ18Dmnvf2OxARwJLgb9Ux1Ug"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 847,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "7th roundabout lekki",
+        "area": "eti-osa",
+        "latitude": "6.44126440000000000000",
+        "longitude": "3.53077410000000000000",
+        "place_id": "ChIJSddr1vn2OxARYIoldFdiBkU"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 848,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "chevron",
+        "area": "eti-osa",
+        "latitude": "6.44170150000000100000",
+        "longitude": "3.53200790000000000000",
+        "place_id": "ChIJuXnJDPn2OxARSN2GbM2EjGQ"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 849,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-09-01",
+        "name": "tipper garage",
+        "area": "eti-osa",
+        "latitude": "6.44405489999999900000",
+        "longitude": "3.53791420000000000000",
+        "place_id": "ChIJPy4NLvz2OxAROp9uEzVvats"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 850,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "2nd toll gate",
+        "area": "eti-osa",
+        "latitude": "6.44456900000000000000",
+        "longitude": "3.54004100000000000000",
+        "place_id": "ChIJ44C67f32OxAReylp8Q2jKw0"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 851,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "total",
+        "area": "eti-osa",
+        "latitude": "6.44766100000000100000",
+        "longitude": "3.54570330000000000000",
+        "place_id": "ChIJ-8chXwP3OxARb98E0ac0AiE"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 852,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "ikota",
+        "area": "eti-osa",
+        "latitude": "6.45194140000000000000",
+        "longitude": "3.55494080000000000000",
+        "place_id": "ChIJVzATchH3OxARcyW-hPYDThk"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 853,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "ilaje",
+        "area": "eti-osa",
+        "latitude": "6.46589359999999900000",
+        "longitude": "3.56144520000000000000",
+        "place_id": "ChIJWbSOXUf3OxARsW1rDktUg2c"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 854,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "ajah",
+        "area": "eti-osa",
+        "latitude": "6.46858810000000000000",
+        "longitude": "3.56564820000000000000",
+        "place_id": "ChIJPRBpc0b3OxAR7lEvy8fULGI"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 855,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "nahco",
+        "area": "ikeja",
+        "latitude": "6.56645719999999900000",
+        "longitude": "3.32145410000000000000",
+        "place_id": "ChIJTZxtMx6OOxARWVS1Q1YqDYQ"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 856,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "ikeja bridge",
+        "area": "ikeja",
+        "latitude": "6.58179820000000000000",
+        "longitude": "3.34135920000000000000",
+        "place_id": "ChIJ0ag7tR2SOxARo0wS4u8ZAOk"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 857,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "iyana itire",
+        "area": "mushin",
+        "latitude": "6.51606790000000000000",
+        "longitude": "3.33397510000000000000",
+        "place_id": "ChIJ2z6PgoSOOxARRcxkrvOzB_s"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 858,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "yaba",
+        "area": "lagos mainland",
+        "latitude": "6.51247290000000000000",
+        "longitude": "3.37041560000000000000",
+        "place_id": "ChIJ4zBSlVqMOxAROjC8CPCZnXo"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 859,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "strabag",
+        "area": "ikeja",
+        "latitude": "6.58411230000000000000",
+        "longitude": "3.33380340000000000000",
+        "place_id": "ChIJQ0jM9_OROxARMKDSDlcHnP0"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 860,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "irawo",
+        "area": "kosofe",
+        "latitude": "6.60963910000000000000",
+        "longitude": "3.42201590000000000000",
+        "place_id": "ChIJW_pNf9XsOxARhpl63RP3OsA"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 861,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "police post",
+        "area": "kosofe",
+        "latitude": "6.60873320000000000000",
+        "longitude": "3.42445670000000000000",
+        "place_id": "ChIJNb3jAirtOxAR97SoU1S-uL8"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 862,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "ogolonto",
+        "area": "ikorodu",
+        "latitude": "6.61933740000000000000",
+        "longitude": "3.47528460000000000000",
+        "place_id": "ChIJAYyIq0jsOxAR7aWv2kVNU8c"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 863,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "oja",
+        "area": "ikorodu",
+        "latitude": "6.62232409999999900000",
+        "longitude": "3.48164140000000000000",
+        "place_id": "ChIJdWPt9TjsOxARKY2dRMC_eSo"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 864,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "agric (ikorodu)",
+        "area": "ikorodu",
+        "latitude": "6.62569339999999900000",
+        "longitude": "3.48422670000000000000",
+        "place_id": "ChIJ5XompT7sOxARg0K5MbBmnV4"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 865,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "cele",
+        "area": "ikorodu",
+        "latitude": "6.62550809999999900000",
+        "longitude": "3.48800890000000000000",
+        "place_id": "ChIJJ_cLhjzsOxARVDgzlEClKfU"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 866,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "haruna",
+        "area": "ikorodu",
+        "latitude": "6.62457010000000000000",
+        "longitude": "3.49316950000000000000",
+        "place_id": "ChIJ-bRneSTsOxARS1NkIRlYxpI"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 867,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "tos benson",
+        "area": "ikorodu",
+        "latitude": "6.62570340000000000000",
+        "longitude": "3.47860480000000000000",
+        "place_id": "ChIJuzpwxkDsOxAR7ER5TKP16qQ"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 868,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "maza maza",
+        "area": "amuwo-odofin",
+        "latitude": "6.45996360000000000000",
+        "longitude": "3.30382700000000000000",
+        "place_id": "ChIJvyRktBiJOxARTcd_OuFKzL4"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 869,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "mosalashi",
+        "area": "amuwo-odofin",
+        "latitude": "6.46007290000000000000",
+        "longitude": "3.29793690000000000000",
+        "place_id": "ChIJH3OwEOCIOxARZaDHAfH9aAc"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 870,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "second gate",
+        "area": "amuwo-odofin",
+        "latitude": "6.45954650000000000000",
+        "longitude": "3.28676550000000000000",
+        "place_id": "ChIJU2NERuiIOxAR-Vebl3kjriQ"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 871,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "dantata",
+        "area": "amuwo-odofin",
+        "latitude": "6.45675480000000000000",
+        "longitude": "3.26288580000000000000",
+        "place_id": "ChIJld1OsJ6IOxARoboj-dEO-xw"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 872,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "agric",
+        "area": "ojo",
+        "latitude": "6.46003820000000000000",
+        "longitude": "3.22049620000000000000",
+        "place_id": "ChIJRViqtV-GOxAR_5KkMU554G4"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 873,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "ilaje",
+        "area": "ojo",
+        "latitude": "6.45994100000000100000",
+        "longitude": "3.21551800000000000000",
+        "place_id": "ChIJT3aQ4fSGOxARiiA_21dkuF0"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 874,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "volks",
+        "area": "ojo",
+        "latitude": "6.45989019999999900000",
+        "longitude": "3.21208480000000000000",
+        "place_id": "ChIJ4eRzbPOGOxARTwHLaCAOihs"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 875,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "iyanaoba",
+        "area": "ojo",
+        "latitude": "6.47642910000000000000",
+        "longitude": "3.20159060000000000000",
+        "place_id": "ChIJBUJePpmGOxAR9qrHxbF03V8"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 876,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "ppl",
+        "area": "ojo",
+        "latitude": "6.46434519999999900000",
+        "longitude": "3.19861470000000000000",
+        "place_id": "ChIJz9qjgpWGOxARtc-l3CLUG3o"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 877,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "alabarago",
+        "area": "ojo",
+        "latitude": "6.46742600000000000000",
+        "longitude": "3.19457260000000000000",
+        "place_id": "ChIJL9CMI7yGOxAR0LCymwRoGWs"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 878,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "moshalasi 2",
+        "area": "ojo",
+        "latitude": "6.46062430000000000000",
+        "longitude": "3.20528810000000000000",
+        "place_id": "ChIJAbhU2eyGOxARiKwv3J2DXRw"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 879,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-08-31",
+        "name": "okokomaiko",
+        "area": "ojo",
+        "latitude": "6.47216500000000000000",
+        "longitude": "3.18764200000000000000",
+        "place_id": "ChIJC4nFA7CGOxAR8Fu95ulqfTU"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 880,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "under bridge",
+        "area": "ojo",
+        "latitude": "6.49777050000000000000",
+        "longitude": "3.11177550000000000000",
+        "place_id": "ChIJHUIEPBGCOxARW-MDkwptJl0"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 881,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "agbara",
+        "area": "badagry",
+        "latitude": "6.50044230000000000000",
+        "longitude": "3.09748660000000000000",
+        "place_id": "ChIJnXfApqB4OxARSW8L4P8c30w"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 882,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "magbon",
+        "area": "badagry",
+        "latitude": "6.48426950000000000000",
+        "longitude": "3.04930690000000000000",
+        "place_id": "ChIJ4350MS15OxARZoZfszzSdIQ"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 883,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "araromi",
+        "area": "badagry",
+        "latitude": "6.48047240000000000000",
+        "longitude": "3.02438940000000000000",
+        "place_id": "ChIJez-XRax-OxARkN-_SJoGM8E"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 884,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "mammy market ibereko",
+        "area": "badagry",
+        "latitude": "6.43401720000000000000",
+        "longitude": "2.89814440000000000000",
+        "place_id": "ChIJlTerSihjOxARwa3CiS3Sk4Y"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 885,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "badagry garage",
+        "area": "badagry",
+        "latitude": "6.42846129999999900000",
+        "longitude": "2.89255190000000000000",
+        "place_id": "ChIJt79A1ltiOxARxiWYkSmtiaM"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 886,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-09-01",
+        "name": "empire",
+        "area": "surulere",
+        "latitude": "6.51827970000000000000",
+        "longitude": "3.36538910000000000000",
+        "place_id": "ChIJhUgwlk6MOxAR61SvotJLS3s"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 887,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-09-05",
+        "name": "sabo",
+        "area": "lagos mainland",
+        "latitude": "6.50593060000000000000",
+        "longitude": "3.37782380000000000000",
+        "place_id": "ChIJe7sCC1-MOxARgia6isloMPs"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 888,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "second rainbow",
+        "area": "amuwo odofin",
+        "latitude": "6.47004860000000000000",
+        "longitude": "3.32266150000000000000",
+        "place_id": "ChIJadwBa0aJOxAREtuEI2GdL6Y"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 889,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "mile 2",
+        "area": "na",
+        "latitude": "6.46239959999999900000",
+        "longitude": "3.31592920000000000000",
+        "place_id": "ChIJj6ErSj6JOxARNq1gaOOto_4"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 890,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "jakande",
+        "area": "amuwo odofin",
+        "latitude": "6.46655190000000000000",
+        "longitude": "3.31957700000000000000",
+        "place_id": "ChIJV3iDTkeJOxAR5_l-MclvhfQ"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 891,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "junction opebi",
+        "area": "ikeja",
+        "latitude": "6.58655169999999900000",
+        "longitude": "3.36341770000000000000",
+        "place_id": "ChIJc-XPOmqSOxARCOFvk_x3ujg"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 892,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "iyana school",
+        "area": "ojo",
+        "latitude": "6.49948790000000000000",
+        "longitude": "3.19891110000000000000",
+        "place_id": "ChIJf8BBDj6EOxARt1xXFsBRQ1I"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 893,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "oniru",
+        "area": "eti-osa",
+        "latitude": "6.43648900000000000000",
+        "longitude": "3.41877800000000000000",
+        "place_id": "ChIJg55WJtWKOxARBPVJfWhvUwE"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 894,
+    "fields": {
+        "date_created": "2017-02-26",
+        "date_last_modified": "2017-02-26",
+        "name": "ikate",
+        "area": "eti-osa",
+        "latitude": "6.43417899999999900000",
+        "longitude": "3.49095710000000000000",
+        "place_id": "ChIJ05enEdL1OxARs7MbuzeSFhU"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 895,
+    "fields": {
+        "date_created": "2017-02-28",
+        "date_last_modified": "2017-09-01",
+        "name": "alaba suru",
+        "area": "ajeromi-ifelodun",
+        "latitude": "6.46376200000000000000",
+        "longitude": "3.32359500000000000000",
+        "place_id": "ChIJj1LyfkGJOxARM-UmwTmiJ8M"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 896,
+    "fields": {
+        "date_created": "2017-03-03",
+        "date_last_modified": "2017-03-03",
+        "name": "Barracks",
+        "area": "na",
+        "latitude": "6.55842699999999900000",
+        "longitude": "3.36067600000000000000",
+        "place_id": "ChIJq6SkEI2NOxAR4TEOoKaEVlA"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 897,
+    "fields": {
+        "date_created": "2017-03-11",
+        "date_last_modified": "2017-03-11",
+        "name": "baba ijebu",
+        "area": "surulere",
+        "latitude": "6.50716709999999900000",
+        "longitude": "3.36322190000000000000",
+        "place_id": "ChIJPzTeaUGMOxARE-KHQ2EfW6U"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 898,
+    "fields": {
+        "date_created": "2017-03-11",
+        "date_last_modified": "2017-03-11",
+        "name": "alex",
+        "area": "apapa",
+        "latitude": "6.43637860000000000000",
+        "longitude": "3.36930510000000000000",
+        "place_id": "ChIJ-_XdflKKOxARzS009vVzw1s"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 899,
+    "fields": {
+        "date_created": "2017-03-11",
+        "date_last_modified": "2017-03-11",
+        "name": "npa gate",
+        "area": "apapa",
+        "latitude": "6.43760500000000000000",
+        "longitude": "3.37246500000000000000",
+        "place_id": "ChIJm8zSFlOKOxARiIVfwr5Y3sE"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 900,
+    "fields": {
+        "date_created": "2017-03-11",
+        "date_last_modified": "2017-03-11",
+        "name": "niger",
+        "area": "apapa",
+        "latitude": "6.43749010000000000000",
+        "longitude": "3.37300930000000000000",
+        "place_id": "ChIJ2-7ubFOKOxARdQkVm2pRXVM"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 901,
+    "fields": {
+        "date_created": "2017-03-11",
+        "date_last_modified": "2017-03-11",
+        "name": "costain",
+        "area": "na",
+        "latitude": "6.48036799999999900000",
+        "longitude": "3.36801200000000000000",
+        "place_id": "ChIJN57_aoiLOxARIPcu0DLl7lA"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 902,
+    "fields": {
+        "date_created": "2017-03-11",
+        "date_last_modified": "2017-03-11",
+        "name": "shogunle",
+        "area": "na",
+        "latitude": "6.57677999999999900000",
+        "longitude": "3.34306000000000000000",
+        "place_id": "ChIJu-XHQwOSOxARfadoPtRtWKY"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 903,
+    "fields": {
+        "date_created": "2017-03-11",
+        "date_last_modified": "2017-03-11",
+        "name": "national",
+        "area": "ikeja",
+        "latitude": "6.59277860000000100000",
+        "longitude": "3.33632470000000000000",
+        "place_id": "ChIJpyXqNIqROxARvm8o2xRlMwU"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 904,
+    "fields": {
+        "date_created": "2017-03-11",
+        "date_last_modified": "2017-03-11",
+        "name": "testing ground",
+        "area": "ikeja",
+        "latitude": "6.61360899999999900000",
+        "longitude": "3.35519940000000000000",
+        "place_id": "ChIJn8eZlcuTOxARNgvLb1ogXDM"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 905,
+    "fields": {
+        "date_created": "2017-03-11",
+        "date_last_modified": "2017-03-11",
+        "name": "cosmic",
+        "area": "ikeja",
+        "latitude": "6.61485330000000000000",
+        "longitude": "3.35672020000000000000",
+        "place_id": "ChIJk4aaK8qTOxARNV4s8hC7GEY"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 906,
+    "fields": {
+        "date_created": "2017-03-11",
+        "date_last_modified": "2017-03-11",
+        "name": "kara",
+        "area": "ikeja",
+        "latitude": "6.64803629999999900000",
+        "longitude": "3.38571820000000000000",
+        "place_id": "ChIJheX01b2TOxARdPq8w5lszEQ"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 907,
+    "fields": {
+        "date_created": "2017-03-11",
+        "date_last_modified": "2017-03-11",
+        "name": "secretariat",
+        "area": "ikeja",
+        "latitude": "6.61609489999999900000",
+        "longitude": "3.36254859999999900000",
+        "place_id": "ChIJ9f2nlraTOxARKV3k-wrl-4o"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 908,
+    "fields": {
+        "date_created": "2017-03-11",
+        "date_last_modified": "2017-03-11",
+        "name": "lands",
+        "area": "ikeja",
+        "latitude": "6.61746040000000000000",
+        "longitude": "3.35948360000000000000",
+        "place_id": "ChIJ5ew1MLaTOxAReO_BMU2121o"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 909,
+    "fields": {
+        "date_created": "2017-03-11",
+        "date_last_modified": "2017-03-11",
+        "name": "ago junction",
+        "area": "oshodi-isolo",
+        "latitude": "6.51584399999999900000",
+        "longitude": "3.31942680000000000000",
+        "place_id": "ChIJiR1HOo2OOxARgtaXZ3qPGro"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 910,
+    "fields": {
+        "date_created": "2017-03-11",
+        "date_last_modified": "2017-03-11",
+        "name": "oduade",
+        "area": "na",
+        "latitude": "6.46844400000000000000",
+        "longitude": "3.32997900000000000000",
+        "place_id": "ChIJ_3ckIluJOxARXeAE_qRWr8g"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 911,
+    "fields": {
+        "date_created": "2017-03-11",
+        "date_last_modified": "2017-03-11",
+        "name": "bank",
+        "area": "agege",
+        "latitude": "6.62111180000000000000",
+        "longitude": "3.32519620000000000000",
+        "place_id": "ChIJ1TlLIm6ROxARaboOiDNyhKY"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 912,
+    "fields": {
+        "date_created": "2017-03-11",
+        "date_last_modified": "2017-03-11",
+        "name": "old abeokuta road",
+        "area": "agege",
+        "latitude": "6.62128300000000000000",
+        "longitude": "3.32503400000000000000",
+        "place_id": "ChIJVyUKGG6ROxARKw3-Ihjcej8"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 913,
+    "fields": {
+        "date_created": "2017-03-11",
+        "date_last_modified": "2017-03-11",
+        "name": "mile 12 underbridge",
+        "area": "na",
+        "latitude": "6.60661000000000000000",
+        "longitude": "3.39849000000000000000",
+        "place_id": "ChIJxSNqieCSOxAR3EfcIQ6lOKg"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 914,
+    "fields": {
+        "date_created": "2017-03-11",
+        "date_last_modified": "2017-03-11",
+        "name": "bonny camp",
+        "area": "eti-osa",
+        "latitude": "6.43751580000000000000",
+        "longitude": "3.40794560000000000000",
+        "place_id": "ChIJ5TlxQdiKOxARegC37LgeJtk"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 915,
+    "fields": {
+        "date_created": "2017-03-11",
+        "date_last_modified": "2017-03-11",
+        "name": "falomo",
+        "area": "eti-osa",
+        "latitude": "6.44444099999999900000",
+        "longitude": "3.42612000000000000000",
+        "place_id": "ChIJZUNvNNH0OxARWE-N7uaRg2k"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 916,
+    "fields": {
+        "date_created": "2017-03-11",
+        "date_last_modified": "2017-03-11",
+        "name": "pure water",
+        "area": "na",
+        "latitude": "6.48302220000000100000",
+        "longitude": "3.03938270000000000000",
+        "place_id": "ChIJxWMs3cp-OxARrGdtS91S4E0"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 917,
+    "fields": {
+        "date_created": "2017-03-11",
+        "date_last_modified": "2017-03-11",
+        "name": "mosafejo",
+        "area": "na",
+        "latitude": "6.43948250000000000000",
+        "longitude": "2.90971140000000000000",
+        "place_id": "ChIJY76S_eJiOxARC3FQhc5Zxto"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 918,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "seme",
+        "area": "badagry",
+        "latitude": "6.38127350000000000000",
+        "longitude": "2.71443840000000000000",
+        "place_id": "ChIJ3QFkK7-gPBARDuFF8016wNc"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 919,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "iponri",
+        "area": "surulere",
+        "latitude": "6.49798799999999900000",
+        "longitude": "3.34392900000000000000",
+        "place_id": "ChIJcQAAAByMOxAReyDPhr1ilvE"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 920,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "brewery",
+        "area": "apapa",
+        "latitude": "6.48020299999999900000",
+        "longitude": "3.36582900000000000000",
+        "place_id": "ChIJJU4quomLOxAR67Sw1p3qiTA"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 921,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-09-01",
+        "name": "ijora 7up underbridge turn",
+        "area": "apapa",
+        "latitude": "6.46815760000000000000",
+        "longitude": "3.36387760000000000000",
+        "place_id": "ChIJR_VI0JOLOxARP3LrsGz_AQw"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 922,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "ijora",
+        "area": "apapa",
+        "latitude": "6.46918000000000100000",
+        "longitude": "3.37937000000000000000",
+        "place_id": "ChIJf-_S2XeLOxARZkqhrJ5zHzQ"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 923,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "idumota",
+        "area": "lagos island",
+        "latitude": "6.46324800000000000000",
+        "longitude": "3.38634700000000000000",
+        "place_id": "ChIJ6_mkqXOLOxARbo3KxRLFlFs"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 924,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "idumota",
+        "area": "lagos island",
+        "latitude": "6.46308699999999900000",
+        "longitude": "3.38661099999999900000",
+        "place_id": "ChIJl_V9AHOLOxARsd9cb6qhiOM"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 925,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "forest street",
+        "area": "lagos island",
+        "latitude": "6.45158300000000000000",
+        "longitude": "3.41186900000000000000",
+        "place_id": "na-forest_street"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 926,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "adekunle lawal road",
+        "area": "lagos island",
+        "latitude": "6.45255300000000000000",
+        "longitude": "3.42308100000000000000",
+        "place_id": "na-adekunle_lawal"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 927,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "oba adeyinka oyekan avenue",
+        "area": "lagos island",
+        "latitude": "6.45689500000000000000",
+        "longitude": "3.42508800000000000000",
+        "place_id": "na-oba_adeyinka_oyekan"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 928,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "glover road",
+        "area": "lagos island",
+        "latitude": "6.45353300000000000000",
+        "longitude": "3.43423800000000000000",
+        "place_id": "na-glover"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 929,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "glover road",
+        "area": "lagos island",
+        "latitude": "6.45347400000000000000",
+        "longitude": "3.43790300000000000000",
+        "place_id": "na-glover_road"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 930,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "gerard avenue",
+        "area": "lagos island",
+        "latitude": "6.45457400000000000000",
+        "longitude": "3.43962900000000000000",
+        "place_id": "na-gerard_avenue"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 931,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "parkview",
+        "area": "lagos island",
+        "latitude": "6.45463900000000000000",
+        "longitude": "3.44127400000000000000",
+        "place_id": "na-parkview"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 932,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "osborne road",
+        "area": "lagos island",
+        "latitude": "6.45988100000000000000",
+        "longitude": "3.41350100000000000000",
+        "place_id": "na-osborne_road"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 933,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "dolphin gate",
+        "area": "lagos island",
+        "latitude": "6.45954800000000000000",
+        "longitude": "3.41320900000000000000",
+        "place_id": "na-dolphin_gate"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 934,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "underbridge",
+        "area": "lagos island",
+        "latitude": "6.46269000000000000000",
+        "longitude": "3.41822000000000000000",
+        "place_id": "na-underbridge"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 935,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "iddo",
+        "area": "lagos mainland",
+        "latitude": "6.47126700000000000000",
+        "longitude": "3.38282299999999900000",
+        "place_id": "ChIJ-8UA33mLOxAR5yztKYQ_3r8"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 936,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "otto",
+        "area": "lagos mainland",
+        "latitude": "6.47674789999999900000",
+        "longitude": "3.38381990000000000000",
+        "place_id": "ChIJ_Y7mrX6LOxAR2YOaLEpkIv4"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 937,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "ajegunle boundary",
+        "area": "ajeromi-ifelodun",
+        "latitude": "6.45482600000000000000",
+        "longitude": "3.35085300000000000000",
+        "place_id": "ChIJxVjNmsSLOxARcUYiAoDs12A"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 938,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "boundary",
+        "area": "ajeromi-ifelodun",
+        "latitude": "6.45509400000000100000",
+        "longitude": "3.35058330000000000000",
+        "place_id": "ChIJMaMQnMSLOxARSaJ2RdCnma4"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 939,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "second nosamu",
+        "area": "ajeromi-ifelodun",
+        "latitude": "6.45493720000000100000",
+        "longitude": "3.34805470000000000000",
+        "place_id": "ChIJiXiSW9uLOxARFq52SWlsLtk"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 940,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "ago hausa",
+        "area": "ajeromi-ifelodun",
+        "latitude": "6.45638699999999900000",
+        "longitude": "3.34342720000000000000",
+        "place_id": "ChIJR__6p96LOxARrwfoM77FmTs"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 941,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "okoya",
+        "area": "ajeromi-ifelodun",
+        "latitude": "6.45943859999999900000",
+        "longitude": "3.34227110000000000000",
+        "place_id": "ChIJhy8VSt6LOxARZ25b7YUI9VU"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 942,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "aiyenero",
+        "area": "ajeromi-ifelodun",
+        "latitude": "6.45935330000000000000",
+        "longitude": "3.34143970000000000000",
+        "place_id": "ChIJN33ESd6LOxARJBkli5dMrh4"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 943,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "aduke junction",
+        "area": "ajeromi-ifelodun",
+        "latitude": "6.46025949999999900000",
+        "longitude": "3.33692950000000000000",
+        "place_id": "ChIJE-xVemCJOxARqhzkHTKmUlI"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 944,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "e.c.n junction",
+        "area": "ajeromi-ifelodun",
+        "latitude": "6.46020879999999900000",
+        "longitude": "3.33563270000000000000",
+        "place_id": "ChIJtzztmmCJOxARV7yh_oG9vVc"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 945,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "alao",
+        "area": "ajeromi-ifelodun",
+        "latitude": "6.45990370000000000000",
+        "longitude": "3.33223430000000000000",
+        "place_id": "ChIJeeL8aWeJOxARFGQy9cxlGTE"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 946,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "ligali",
+        "area": "ajeromi-ifelodun",
+        "latitude": "6.45983040000000000000",
+        "longitude": "3.33027630000000000000",
+        "place_id": "ChIJA65OlGeJOxARNbnX_rZ48nY"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 947,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "owoyemi",
+        "area": "ajeromi-ifelodun",
+        "latitude": "6.45997930000000000000",
+        "longitude": "3.32858120000000000000",
+        "place_id": "ChIJX8LlEWiJOxARb1yukeo0Yc4"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 948,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "barrack",
+        "area": "ajeromi-ifelodun",
+        "latitude": "6.45995799999999900000",
+        "longitude": "3.32351980000000000000",
+        "place_id": "ChIJB-9sHGqJOxAR_OHBCggP_b4"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 949,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "ijesha market",
+        "area": "surulere",
+        "latitude": "6.49971040000000000000",
+        "longitude": "3.32870030000000000000",
+        "place_id": "ChIJhzZ3zLyOOxARxTmzwBLxrIM"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 950,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "clay",
+        "area": "ikeja",
+        "latitude": "6.60477660000000000000",
+        "longitude": "3.36158570000000000000",
+        "place_id": "ChIJcXFW00uSOxARvQ73VS-1I3s"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 951,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "oluyole",
+        "area": "onigbongbon",
+        "latitude": "6.60017249999999900000",
+        "longitude": "3.36488220000000000000",
+        "place_id": "ChIJEeP0Rk-SOxARiigBpshtq9U"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 952,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "welfare",
+        "area": "onigbongbon",
+        "latitude": "6.59815279999999900000",
+        "longitude": "3.36701180000000000000",
+        "place_id": "ChIJcckUcUWSOxAR9qv59easeNw"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 953,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "first bank",
+        "area": "onigbongbon",
+        "latitude": "6.59463309999999900000",
+        "longitude": "3.37040480000000000000",
+        "place_id": "ChIJbUznaVuSOxARsDjLkubw10c"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 954,
+    "fields": {
+        "date_created": "2017-03-20",
+        "date_last_modified": "2017-03-20",
+        "name": "olusosun",
+        "area": "onigbongbon",
+        "latitude": "6.59012310000000000000",
+        "longitude": "3.37480260000000000000",
+        "place_id": "ChIJxy0nbl6SOxARviLyQ24Ut1k"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 955,
+    "fields": {
+        "date_created": "2017-07-17",
+        "date_last_modified": "2017-07-17",
+        "name": "oyingbo",
+        "area": "lagos mainland",
+        "latitude": "6.48216670000000100000",
+        "longitude": "3.38314530000000000000",
+        "place_id": "ChIJFYHf5oGMOxARnIGp8RvoEcM"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 956,
+    "fields": {
+        "date_created": "2017-07-17",
+        "date_last_modified": "2017-07-17",
+        "name": "jimoh",
+        "area": "alimosho",
+        "latitude": "6.60188840000000000000",
+        "longitude": "3.30195350000000000000",
+        "place_id": "ChIJZYjFs62ROxAR-SO_ABZ9zI8"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 957,
+    "fields": {
+        "date_created": "2017-07-17",
+        "date_last_modified": "2017-07-17",
+        "name": "micom",
+        "area": "alimosho",
+        "latitude": "6.60045219999999900000",
+        "longitude": "3.29745409999999900000",
+        "place_id": "ChIJBV7tXlOQOxARzwvbfBxiY08"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 958,
+    "fields": {
+        "date_created": "2017-07-17",
+        "date_last_modified": "2017-07-17",
+        "name": "miccom",
+        "area": "alimosho",
+        "latitude": "6.60057080000000000000",
+        "longitude": "3.29679160000000000000",
+        "place_id": "ChIJg8oZklKQOxARnOyCwCe5gCE"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 959,
+    "fields": {
+        "date_created": "2017-07-17",
+        "date_last_modified": "2017-07-17",
+        "name": "bakery",
+        "area": "alimosho",
+        "latitude": "6.60012450000000000000",
+        "longitude": "3.29577770000000000000",
+        "place_id": "ChIJq8JrkVKQOxARfYv-HQpAzRs"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 960,
+    "fields": {
+        "date_created": "2017-07-17",
+        "date_last_modified": "2017-07-17",
+        "name": "alaroro",
+        "area": "alimosho",
+        "latitude": "6.59961160000000000000",
+        "longitude": "3.29294530000000000000",
+        "place_id": "ChIJvdiy4lGQOxARhnFPyIJ6cBw"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 961,
+    "fields": {
+        "date_created": "2017-07-17",
+        "date_last_modified": "2017-07-17",
+        "name": "egbeda",
+        "area": "alimosho",
+        "latitude": "6.59776650000000100000",
+        "longitude": "3.29046960000000000000",
+        "place_id": "ChIJD_CFsE-QOxAR5SHfYINZd4E"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 962,
+    "fields": {
+        "date_created": "2017-07-17",
+        "date_last_modified": "2017-07-17",
+        "name": "shasha",
+        "area": "alimosho",
+        "latitude": "6.60592490000000000000",
+        "longitude": "3.31008999999999900000",
+        "place_id": "ChIJnUwHa6aROxARjm8hPXbVOSk"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 963,
+    "fields": {
+        "date_created": "2017-07-18",
+        "date_last_modified": "2017-07-18",
+        "name": "okunola",
+        "area": "alimosho",
+        "latitude": "0.59704040000000100000",
+        "longitude": "3.28890730000000000000",
+        "place_id": "ChIJq406gk-QOxAROnG-Cz2FpU0"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 964,
+    "fields": {
+        "date_created": "2017-07-18",
+        "date_last_modified": "2017-07-18",
+        "name": "oja",
+        "area": "alimosho",
+        "latitude": "6.59553500000000100000",
+        "longitude": "3.28816430000000000000",
+        "place_id": "ChIJt-dG80WQOxARCgmHjkSwW7k"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 965,
+    "fields": {
+        "date_created": "2017-07-18",
+        "date_last_modified": "2017-07-18",
+        "name": "orelope",
+        "area": "alimosho",
+        "latitude": "6.59392969999999900000",
+        "longitude": "3.28804490000000000000",
+        "place_id": "ChIJCYl4BkaQOxARDuFkamYTDOA"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 966,
+    "fields": {
+        "date_created": "2017-07-18",
+        "date_last_modified": "2017-07-18",
+        "name": "ilepo alhaji",
+        "area": "alimosho",
+        "latitude": "6.58894960000000000000",
+        "longitude": "3.28744850000000000000",
+        "place_id": "ChIJmXyAVziQOxARB2V_8g5ti3A"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 967,
+    "fields": {
+        "date_created": "2017-07-18",
+        "date_last_modified": "2017-07-18",
+        "name": "seliat",
+        "area": "alimosho",
+        "latitude": "6.58883650000000000000",
+        "longitude": "3.28724430000000000000",
+        "place_id": "ChIJQQBXcziQOxARLUVdPKog054"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 968,
+    "fields": {
+        "date_created": "2017-07-18",
+        "date_last_modified": "2017-07-18",
+        "name": "abule odu",
+        "area": "alimosho",
+        "latitude": "6.58733640000000000000",
+        "longitude": "3.28605879999999900000",
+        "place_id": "ChIJOYBbXziQOxAR8VgV3gEZYtw"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 969,
+    "fields": {
+        "date_created": "2017-07-18",
+        "date_last_modified": "2017-07-18",
+        "name": "faith",
+        "area": "alimosho",
+        "latitude": "6.58484640000000000000",
+        "longitude": "3.28399080000000000000",
+        "place_id": "ChIJiQwXMDmQOxAR6c4IHHftFts"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 970,
+    "fields": {
+        "date_created": "2017-07-18",
+        "date_last_modified": "2017-07-18",
+        "name": "car wash",
+        "area": "alimosho",
+        "latitude": "6.58378190000000000000",
+        "longitude": "3.28354150000000000000",
+        "place_id": "ChIJyakpVTmQOxAR7jtQZFTCZPI"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 971,
+    "fields": {
+        "date_created": "2017-07-18",
+        "date_last_modified": "2017-07-18",
+        "name": "baba oba",
+        "area": "alimosho",
+        "latitude": "6.58041530000000000000",
+        "longitude": "3.28368100000000100000",
+        "place_id": "ChIJPSjjfDuQOxAROyayOWWA8Uk"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 972,
+    "fields": {
+        "date_created": "2017-07-18",
+        "date_last_modified": "2017-07-18",
+        "name": "pipeline",
+        "area": "alimosho",
+        "latitude": "6.58098789999999800000",
+        "longitude": "3.28384950000000000000",
+        "place_id": "ChIJ5SVsgjuQOxAR25lihEAGjhI"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 973,
+    "fields": {
+        "date_created": "2017-07-18",
+        "date_last_modified": "2017-07-18",
+        "name": "isheri",
+        "area": "alimosho",
+        "latitude": "6.57728709999999900000",
+        "longitude": "3.28174710000000000000",
+        "place_id": "ChIJt1CDPCOQOxARFghrP5CRM7k"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 974,
+    "fields": {
+        "date_created": "2017-07-18",
+        "date_last_modified": "2017-07-18",
+        "name": "isherin olofin",
+        "area": "alimosho",
+        "latitude": "6.57604680000000000000",
+        "longitude": "3.28094780000000100000",
+        "place_id": "ChIJB0rs_SKQOxARNHsD1IzN3-s"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 975,
+    "fields": {
+        "date_created": "2017-07-18",
+        "date_last_modified": "2017-07-18",
+        "name": "idimu",
+        "area": "alimosho",
+        "latitude": "6.57294700000000100000",
+        "longitude": "3.28361900000000000000",
+        "place_id": "ChIJX2icqiaQOxARQgDxrl3MBM4"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 976,
+    "fields": {
+        "date_created": "2017-07-18",
+        "date_last_modified": "2017-07-18",
+        "name": "idimu bus station",
+        "area": "alimosho",
+        "latitude": "6.57289060000000000000",
+        "longitude": "3.28352809999999900000",
+        "place_id": "ChIJu9jKqiaQOxARVaM7Okaw7EU"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 977,
+    "fields": {
+        "date_created": "2017-07-18",
+        "date_last_modified": "2017-07-18",
+        "name": "idimu brt",
+        "area": "alimosho",
+        "latitude": "6.57277559999999900000",
+        "longitude": "3.28380670000000000000",
+        "place_id": "ChIJi_zTqyaQOxARmU2WvsNGrcg"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 978,
+    "fields": {
+        "date_created": "2017-07-18",
+        "date_last_modified": "2017-07-18",
+        "name": "alhaja",
+        "area": "alimosho",
+        "latitude": "6.56960920000000100000",
+        "longitude": "3.28280260000000000000",
+        "place_id": "ChIJ0Ts2xSCQOxAR8RL_QjGwK4s"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 979,
+    "fields": {
+        "date_created": "2017-07-18",
+        "date_last_modified": "2017-07-18",
+        "name": "council",
+        "area": "alimosho",
+        "latitude": "6.56782520000000100000",
+        "longitude": "3.27942430000000000000",
+        "place_id": "ChIJPwSACSCQOxARGSg0itpzvhw"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 980,
+    "fields": {
+        "date_created": "2017-07-18",
+        "date_last_modified": "2017-07-18",
+        "name": "pab b",
+        "area": "alimosho",
+        "latitude": "6.56173940000000000000",
+        "longitude": "3.27256330000000000000",
+        "place_id": "ChIJd6HCDeSPOxARSzsxIvcUWak"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 981,
+    "fields": {
+        "date_created": "2017-07-18",
+        "date_last_modified": "2017-07-18",
+        "name": "arida",
+        "area": "alimosho",
+        "latitude": "6.56077330000000100000",
+        "longitude": "3.27036510000000000000",
+        "place_id": "ChIJJ84Q8uSPOxARQ7vDHRAr5MM"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 982,
+    "fields": {
+        "date_created": "2017-07-18",
+        "date_last_modified": "2017-07-18",
+        "name": "foursquare",
+        "area": "alimosho",
+        "latitude": "6.55923710000000000000",
+        "longitude": "3.27009550000000000000",
+        "place_id": "ChIJAU-0FuWPOxARsJy2k3gNndg"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 983,
+    "fields": {
+        "date_created": "2017-07-18",
+        "date_last_modified": "2017-07-18",
+        "name": "paradise",
+        "area": "alimosho",
+        "latitude": "6.55649410000000100000",
+        "longitude": "3.26981020000000000000",
+        "place_id": "ChIJlW09je-POxAR6q1RczPi46Y"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 984,
+    "fields": {
+        "date_created": "2017-07-18",
+        "date_last_modified": "2017-07-18",
+        "name": "college",
+        "area": "alimosho",
+        "latitude": "6.55493500000000000000",
+        "longitude": "3.26965840000000000000",
+        "place_id": "ChIJvXCStu-POxARksVwENv8ytI"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 985,
+    "fields": {
+        "date_created": "2017-07-18",
+        "date_last_modified": "2017-07-18",
+        "name": "mokola",
+        "area": "alimosho",
+        "latitude": "6.60038460000000000000",
+        "longitude": "3.29178420000000000000",
+        "place_id": "ChIJx-oLxVGQOxARCicvsuDmFgY"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 986,
+    "fields": {
+        "date_created": "2017-07-18",
+        "date_last_modified": "2017-07-18",
+        "name": "banire",
+        "area": "alimosho",
+        "latitude": "6.60299140000000000000",
+        "longitude": "3.29285140000000000000",
+        "place_id": "ChIJx8u-b1GQOxAR_jjnXA_YUh0"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 987,
+    "fields": {
+        "date_created": "2017-07-18",
+        "date_last_modified": "2017-07-18",
+        "name": "ponle",
+        "area": "alimosho",
+        "latitude": "6.60462469999999800000",
+        "longitude": "3.29369899999999900000",
+        "place_id": "ChIJK0E-CVOQOxARlhWw_SvApJk"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 988,
+    "fields": {
+        "date_created": "2017-07-18",
+        "date_last_modified": "2017-07-18",
+        "name": "olorun adaba",
+        "area": "alimosho",
+        "latitude": "6.60647910000000000000",
+        "longitude": "3.29401010000000000000",
+        "place_id": "ChIJ-aViXFSQOxARjwRUlhbcUgo"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 989,
+    "fields": {
+        "date_created": "2017-07-18",
+        "date_last_modified": "2017-07-18",
+        "name": "church",
+        "area": "alimosho",
+        "latitude": "6.60765150000000000000",
+        "longitude": "3.29404770000000000000",
+        "place_id": "ChIJqxke01WQOxARTkiwdf9tJCU"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 990,
+    "fields": {
+        "date_created": "2017-07-18",
+        "date_last_modified": "2017-07-18",
+        "name": "moshalasi",
+        "area": "alimosho",
+        "latitude": "6.60931940000000000000",
+        "longitude": "3.29415500000000000000",
+        "place_id": "ChIJS8WT5VWQOxARk5UsRzyknmM"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 991,
+    "fields": {
+        "date_created": "2017-07-18",
+        "date_last_modified": "2017-07-18",
+        "name": "mosalasi",
+        "area": "alimosho",
+        "latitude": "6.61009700000000000000",
+        "longitude": "3.29402100000000000000",
+        "place_id": "ChIJ4Yjw-FWQOxARKhssN1wi3Gg"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 992,
+    "fields": {
+        "date_created": "2017-07-18",
+        "date_last_modified": "2017-07-18",
+        "name": "alimosho",
+        "area": "alimosho",
+        "latitude": "6.60999570000000000000",
+        "longitude": "3.29583250000000000000",
+        "place_id": "ChIJ9zk7gVWQOxAR6Bjs7wfxxwU"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 993,
+    "fields": {
+        "date_created": "2017-07-18",
+        "date_last_modified": "2017-07-18",
+        "name": "alagutan",
+        "area": "alimosho",
+        "latitude": "6.61435499999999900000",
+        "longitude": "3.29773579999999900000",
+        "place_id": "ChIJS0tgFv6QOxARtuk3Ap7vKmE"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 994,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-08-31",
+        "name": "association",
+        "area": "alimosho",
+        "latitude": "6.57386180000000000000",
+        "longitude": "3.25620169999999900000",
+        "place_id": "ChIJGaNoj6maOxARUE21MRW2jk0"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 995,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-08-31",
+        "name": "ile eja",
+        "area": "alimosho",
+        "latitude": "6.57278400000000000000",
+        "longitude": "3.25431350000000000000",
+        "place_id": "ChIJqcKv5quaOxARtwJL9_SPFJQ"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 996,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-08-31",
+        "name": "iron market",
+        "area": "alimosho",
+        "latitude": "6.56819260000000000000",
+        "longitude": "3.25201480000000000000",
+        "place_id": "ChIJVfbzyayaOxARdpQwoqSz5pM"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 997,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-08-31",
+        "name": "eden chapel",
+        "area": "alimosho",
+        "latitude": "6.56668739999999900000",
+        "longitude": "3.25176000000000000000",
+        "place_id": "ChIJyWCgaUSFOxARLbUhOwf7B3Q"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 998,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-08-31",
+        "name": "unity",
+        "area": "alimosho",
+        "latitude": "6.56314350000000100000",
+        "longitude": "3.25077829999999900000",
+        "place_id": "ChIJQ3ajG1OFOxARl2mAK8odVWg"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 999,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-08-31",
+        "name": "general",
+        "area": "alimosho",
+        "latitude": "6.56039890000000000000",
+        "longitude": "3.24976440000000000000",
+        "place_id": "ChIJw58at1GFOxAReuVdn42YArs"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1000,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-08-31",
+        "name": "ede",
+        "area": "alimosho",
+        "latitude": "6.55715840000000000000",
+        "longitude": "3.24940230000000000000",
+        "place_id": "ChIJ9eyHoFqFOxARGEMxbrINMXQ"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1001,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-08-31",
+        "name": "oko filling",
+        "area": "alimosho",
+        "latitude": "6.55257099999999900000",
+        "longitude": "3.24397200000000000000",
+        "place_id": "ChIJuTseEESFOxARHS53XnupPcQ"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1002,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-08-31",
+        "name": "college",
+        "area": "alimosho",
+        "latitude": "6.55161609999999900000",
+        "longitude": "3.24149250000000000000",
+        "place_id": "ChIJJ4ckMkGFOxARiJ-HwDjc5l4"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1003,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-08-31",
+        "name": "igando",
+        "area": "alimosho",
+        "latitude": "6.55132420000000000000",
+        "longitude": "3.24024390000000000000",
+        "place_id": "ChIJCShp0ECFOxARqBOSsoKoRUo"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1004,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-08-31",
+        "name": "igando terminal",
+        "area": "alimosho",
+        "latitude": "6.55097659999999900000",
+        "longitude": "3.24033380000000000000",
+        "place_id": "ChIJ-WOsIUGFOxARc0CxwyY3zeM"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1005,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-08-31",
+        "name": "omolade",
+        "area": "alimosho",
+        "latitude": "6.54965199999999900000",
+        "longitude": "3.23879420000000000000",
+        "place_id": "ChIJ-e7ChUCFOxARVOYKJ0hJ2J4"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1006,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-08-31",
+        "name": "olorunfemi",
+        "area": "alimosho",
+        "latitude": "6.54875959999999900000",
+        "longitude": "3.23669670000000000000",
+        "place_id": "ChIJdxF8oz-FOxARoYbvDPQHfUc"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1007,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-08-31",
+        "name": "olowo ila",
+        "area": "alimosho",
+        "latitude": "6.54559890000000000000",
+        "longitude": "3.23653039999999900000",
+        "place_id": "ChIJNZssbBWFOxARO6zfiz78LIU"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1008,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-08-31",
+        "name": "akesan junction",
+        "area": "alimosho",
+        "latitude": "6.54205450000000000000",
+        "longitude": "3.23061880000000000000",
+        "place_id": "ChIJe8HDJxeFOxAR2Cs7-7cFwjI"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1009,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-08-31",
+        "name": "araromi",
+        "area": "alimosho",
+        "latitude": "6.54008320000000000000",
+        "longitude": "3.22289939999999900000",
+        "place_id": "ChIJu-BPCxyFOxARkpgPRkrPg8U"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1010,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-08-31",
+        "name": "ewedogbon",
+        "area": "alimosho",
+        "latitude": "6.53568039999999900000",
+        "longitude": "3.22113990000000000000",
+        "place_id": "ChIJV-NiLgOFOxAROEVPPFmWHsA"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1011,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-08-31",
+        "name": "adexson",
+        "area": "alimosho",
+        "latitude": "6.53432729999999800000",
+        "longitude": "3.21920870000000000000",
+        "place_id": "ChIJm7-8kwKFOxARKINO6NQHYv4"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1012,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-08-31",
+        "name": "afolabi",
+        "area": "alimosho",
+        "latitude": "6.53132140000000000000",
+        "longitude": "3.21784610000000000000",
+        "place_id": "ChIJdVmNcf6EOxARpfvFFC9RXvE"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1013,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-08-31",
+        "name": "obadore",
+        "area": "alimosho",
+        "latitude": "6.52781149999999900000",
+        "longitude": "3.21448810000000000000",
+        "place_id": "ChIJC5ESD_-EOxARC_7R6uaHX3w"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1014,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-08-31",
+        "name": "bus stop",
+        "area": "alimosho",
+        "latitude": "6.52782650000000000000",
+        "longitude": "3.21400600000000000000",
+        "place_id": "ChIJXaq8Jv-EOxARNqPpBUgmE4A"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1015,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-08-31",
+        "name": "iba junction",
+        "area": "ojo",
+        "latitude": "6.50648610000000000000",
+        "longitude": "3.20073100000000000000",
+        "place_id": "ChIJFwGoA0GEOxARrV9EBZqhu-A"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1016,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-08-31",
+        "name": "adoff",
+        "area": "ojo",
+        "latitude": "6.50193570000000000000",
+        "longitude": "3.19962730000000000000",
+        "place_id": "ChIJ5WlTsT-EOxARZowTr-_5eQA"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1017,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-08-31",
+        "name": "ajakeye",
+        "area": "ojo",
+        "latitude": "6.49808199999999900000",
+        "longitude": "3.19879710000000000000",
+        "place_id": "ChIJe2NN7j2EOxARdtXw66Xh5Pw"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1018,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-08-31",
+        "name": "ipaye",
+        "area": "ojo",
+        "latitude": "6.49266370000000000000",
+        "longitude": "3.19936570000000000000",
+        "place_id": "ChIJE9xDxyKEOxARpzRULY-YBD4"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1019,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-08-31",
+        "name": "first gate",
+        "area": "ojo",
+        "latitude": "6.48781939999999900000",
+        "longitude": "3.19774570000000000000",
+        "place_id": "ChIJq9ypUR-EOxAR8RelZfKqPUA"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1020,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-08-31",
+        "name": "agboroko",
+        "area": "ojo",
+        "latitude": "6.48735530000000000000",
+        "longitude": "3.19967690000000000000",
+        "place_id": "ChIJi-hpkSGEOxARIXnNI-ZWOWQ"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1021,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-08-31",
+        "name": "post service",
+        "area": "ojo",
+        "latitude": "6.47315840000000000000",
+        "longitude": "3.20302430000000000000",
+        "place_id": "ChIJZw9TNZKGOxARzh7LQ0Xqrig"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1022,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-08-31",
+        "name": "bakari",
+        "area": "alimosho",
+        "latitude": "6.55210240000000100000",
+        "longitude": "3.25387000000000000000",
+        "place_id": "ChIJAzhGUlmFOxARytBMLnOGiPw"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1023,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-08-31",
+        "name": "oloye",
+        "area": "alimosho",
+        "latitude": "6.54754979999999900000",
+        "longitude": "3.26343570000000000000",
+        "place_id": "ChIJmbVoX_OPOxARzEfmr8vJGRo"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1024,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-08-31",
+        "name": "ile ibadan",
+        "area": "alimosho",
+        "latitude": "6.52974429999999900000",
+        "longitude": "3.25885379999999900000",
+        "place_id": "ChIJh6oMpYCPOxARvvinlpIvaB4"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1025,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-08-31",
+        "name": "st saviours",
+        "area": "alimosho",
+        "latitude": "6.52879250000000000000",
+        "longitude": "3.25875790000000000000",
+        "place_id": "ChIJs1zdm4CPOxARCqQKeiLE9Dg"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1026,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-08-31",
+        "name": "prince",
+        "area": "alimosho",
+        "latitude": "6.52691650000000000000",
+        "longitude": "3.25812490000000000000",
+        "place_id": "ChIJUw5A2X-FOxARdpikFjvngh0"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1027,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-08-31",
+        "name": "papa major",
+        "area": "alimosho",
+        "latitude": "6.52388260000000000000",
+        "longitude": "3.25764480000000000000",
+        "place_id": "ChIJJYbIEoCFOxARvsMu3GPjQhA"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1028,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-09-01",
+        "name": "taylor",
+        "area": "alimosho",
+        "latitude": "6.52206380000000000000",
+        "longitude": "3.25744900000000000000",
+        "place_id": "ChIJiQKbjoCFOxARh2RI3s9GQl4"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1029,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-09-01",
+        "name": "obalagbe",
+        "area": "alimosho",
+        "latitude": "6.52135630000000000000",
+        "longitude": "3.25740200000000000000",
+        "place_id": "ChIJ23orlICFOxAR12vhGKXvSA4"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1030,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-09-01",
+        "name": "sule",
+        "area": "alimosho",
+        "latitude": "6.52043829999999900000",
+        "longitude": "3.25734570000000000000",
+        "place_id": "ChIJZxVAt4CFOxARkb-GGzpDoLw"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1031,
+    "fields": {
+        "date_created": "2017-08-31",
+        "date_last_modified": "2017-09-01",
+        "name": "bank",
+        "area": "alimosho",
+        "latitude": "6.51992390000000000000",
+        "longitude": "3.25731490000000000000",
+        "place_id": "ChIJxUzCtICFOxARR4cnJ69bKW8"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1032,
+    "fields": {
+        "date_created": "2017-09-01",
+        "date_last_modified": "2017-09-01",
+        "name": "ije ododo",
+        "area": "alimosho",
+        "latitude": "6.51612120000000000000",
+        "longitude": "3.25397010000000000000",
+        "place_id": "ChIJL8aJbYaFOxAR-Gf6EJaUAe8"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1033,
+    "fields": {
+        "date_created": "2017-09-01",
+        "date_last_modified": "2017-09-01",
+        "name": "transformer",
+        "area": "alimosho",
+        "latitude": "6.51517650000000000000",
+        "longitude": "3.26263900000000000000",
+        "place_id": "ChIJ22ODunyPOxARALpaHyjrnmU"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1034,
+    "fields": {
+        "date_created": "2017-09-01",
+        "date_last_modified": "2017-09-01",
+        "name": "estate junction",
+        "area": "alimosho",
+        "latitude": "6.51457290000000000000",
+        "longitude": "3.26421350000000000000",
+        "place_id": "ChIJo87nTHuPOxARpbeIkvJ6Ezs"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1035,
+    "fields": {
+        "date_created": "2017-09-01",
+        "date_last_modified": "2017-09-01",
+        "name": "junction",
+        "area": "oshodi-isolo",
+        "latitude": "6.52942410000000100000",
+        "longitude": "3.30466660000000000000",
+        "place_id": "ChIJIczmuVaOOxARaAPUnGs5g44"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1036,
+    "fields": {
+        "date_created": "2017-09-01",
+        "date_last_modified": "2017-09-01",
+        "name": "bolorunpelu",
+        "area": "alimosho",
+        "latitude": "6.54522080000000000000",
+        "longitude": "3.27361870000000000000",
+        "place_id": "ChIJIWAAoZSPOxARHBR7CEXo4EU"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1037,
+    "fields": {
+        "date_created": "2017-09-01",
+        "date_last_modified": "2017-09-01",
+        "name": "ile-epo",
+        "area": "alimosho",
+        "latitude": "6.54023240000000100000",
+        "longitude": "3.29428910000000000000",
+        "place_id": "ChIJBeLd77OPOxARnsyXQcrcFGE"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1038,
+    "fields": {
+        "date_created": "2017-09-01",
+        "date_last_modified": "2017-09-01",
+        "name": "west end",
+        "area": "kosofe",
+        "latitude": "6.55223970000000000000",
+        "longitude": "3.37555470000000000000",
+        "place_id": "ChIJW82-P5yNOxARYIYjaGhH-0M"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1039,
+    "fields": {
+        "date_created": "2017-09-01",
+        "date_last_modified": "2017-09-01",
+        "name": "second pedro",
+        "area": "kosofe",
+        "latitude": "6.55018790000000000000",
+        "longitude": "3.37746980000000000000",
+        "place_id": "ChIJCz0Ab56NOxAR9ufhYVojYes"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1040,
+    "fields": {
+        "date_created": "2017-09-01",
+        "date_last_modified": "2017-09-01",
+        "name": "charly boy",
+        "area": "kosofe",
+        "latitude": "6.54896479999999900000",
+        "longitude": "3.37914350000000000000",
+        "place_id": "ChIJKzMSKJ6NOxAR5yicHRRbMTk"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1041,
+    "fields": {
+        "date_created": "2017-09-01",
+        "date_last_modified": "2017-09-01",
+        "name": "first pedro",
+        "area": "kosofe",
+        "latitude": "6.54865300000000100000",
+        "longitude": "3.37972820000000000000",
+        "place_id": "ChIJnaOpg3WNOxAR0ebiQrbBM0k"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1042,
+    "fields": {
+        "date_created": "2017-09-01",
+        "date_last_modified": "2017-09-01",
+        "name": "ncie",
+        "area": "somolu",
+        "latitude": "6.54744060000000000000",
+        "longitude": "3.38173180000000000000",
+        "place_id": "ChIJ5XJ24nSNOxARuHMjpNEDTdo"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1043,
+    "fields": {
+        "date_created": "2017-09-01",
+        "date_last_modified": "2017-09-01",
+        "name": "gbagada",
+        "area": "somolu",
+        "latitude": "6.54911900000000000000",
+        "longitude": "3.38820700000000000000",
+        "place_id": "ChIJv-P9aHKNOxARjD2l4Qd3xZg"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1044,
+    "fields": {
+        "date_created": "2017-09-01",
+        "date_last_modified": "2017-09-01",
+        "name": "new garage",
+        "area": "somolu",
+        "latitude": "6.54942819999999900000",
+        "longitude": "3.39228339999999900000",
+        "place_id": "ChIJxTalSWyNOxARGti0nKd9K60"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1045,
+    "fields": {
+        "date_created": "2017-09-01",
+        "date_last_modified": "2017-09-01",
+        "name": "olojojo",
+        "area": "kosofe",
+        "latitude": "6.54995350000000000000",
+        "longitude": "3.39254680000000000000",
+        "place_id": "ChIJiZqgPGyNOxARUt5Hq7M_Od0"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1046,
+    "fields": {
+        "date_created": "2017-09-01",
+        "date_last_modified": "2017-09-01",
+        "name": "iyana oworo",
+        "area": "somolu",
+        "latitude": "6.54642000000000100000",
+        "longitude": "3.39767200000000000000",
+        "place_id": "ChIJvZ5RxGqNOxARf7aWsg91IEE"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1047,
+    "fields": {
+        "date_created": "2017-09-01",
+        "date_last_modified": "2017-09-01",
+        "name": "adeniji adele",
+        "area": "lagos island",
+        "latitude": "6.46300460000000000000",
+        "longitude": "3.39359250000000000000",
+        "place_id": "ChIJlys6iGyLOxAR4p_HMXMcWnE"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1048,
+    "fields": {
+        "date_created": "2017-09-01",
+        "date_last_modified": "2017-09-01",
+        "name": "hostel",
+        "area": "alimosho",
+        "latitude": "6.54196450000000000000",
+        "longitude": "3.28143330000000000000",
+        "place_id": "ChIJQ0aFjr6POxARrrpu8S45sGc"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1049,
+    "fields": {
+        "date_created": "2017-09-01",
+        "date_last_modified": "2017-09-01",
+        "name": "oshodi",
+        "area": "oshodi-isolo",
+        "latitude": "6.55591399999999900000",
+        "longitude": "3.35151700000000000000",
+        "place_id": "ChIJx0lhLe6NOxARgyaNa1IpNv4"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1050,
+    "fields": {
+        "date_created": "2017-09-01",
+        "date_last_modified": "2017-09-01",
+        "name": "vulcanizer",
+        "area": "alimosho",
+        "latitude": "6.60003030000000000000",
+        "longitude": "3.30042660000000000000",
+        "place_id": "ChIJSyYSZa2ROxARVweBbSFH4_g"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1051,
+    "fields": {
+        "date_created": "2017-09-01",
+        "date_last_modified": "2017-09-01",
+        "name": "olowu",
+        "area": "lagos island",
+        "latitude": "6.45806340000000000000",
+        "longitude": "3.40530310000000000000",
+        "place_id": "ChIJxfzr2ziLOxAR_1Y3qxYq_Ag"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1052,
+    "fields": {
+        "date_created": "2017-09-01",
+        "date_last_modified": "2017-09-01",
+        "name": "mosalashi",
+        "area": "mushin",
+        "latitude": "6.51955890000000000000",
+        "longitude": "3.36507530000000000000",
+        "place_id": "ChIJ5ZJCGUyMOxARcxesnlgo5rI"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1053,
+    "fields": {
+        "date_created": "2017-09-01",
+        "date_last_modified": "2017-09-01",
+        "name": "bolade",
+        "area": "oshodi-isolo",
+        "latitude": "6.56044999999999900000",
+        "longitude": "3.34972000000000000000",
+        "place_id": "ChIJpcK3l_CNOxARxSGa1HdtGCU"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1054,
+    "fields": {
+        "date_created": "2017-09-01",
+        "date_last_modified": "2017-09-01",
+        "name": "plaza",
+        "area": "ikeja",
+        "latitude": "6.59739880000000100000",
+        "longitude": "3.35422580000000000000",
+        "place_id": "ChIJCb4UiTmSOxARBUPA0K-KBC8"
+    }
+},
+{
+    "model": "busstops.busstop",
+    "pk": 1055,
+    "fields": {
+        "date_created": "2017-09-01",
+        "date_last_modified": "2017-09-01",
+        "name": "berger",
+        "area": "ajeromi-ifelodun",
+        "latitude": "6.44925000000000000000",
+        "longitude": "3.31857900000000000000",
+        "place_id": "ChIJz_6ASw2JOxAR60e9df6c1V8"
+    }
+}
+]
