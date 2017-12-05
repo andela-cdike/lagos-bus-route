@@ -34,6 +34,9 @@ class Route(Base):
     route_id = models.IntegerField()
     node_position = models.IntegerField()
 
+    class Meta:
+        unique_together = ('route_id', 'busstop', 'node_position')
+
     def __str__(self):
         return '{0}, type-{1}, route {2}'.format(
             self.busstop.name, self.busstop_type, self.route_id)
