@@ -2,11 +2,9 @@ version: '3.4'
 
 services:
 
-  db:
-    environment:
-      POSTGRES_USER_FILE: /run/secrets/psql-user
-      POSTGRES_PASSWORD: /run/secrets/psql-pw
-      POSTGRES_DB: /run/secrets/psql-db_name
+  nginx:
+    volumes:
+      - ./lagos_bus_route/staticfiles:/static
 
   web:
     build: .
@@ -21,11 +19,3 @@ services:
       - ./lagos_bus_route:/lagos-bus-route/lagos_bus_route
     stdin_open: true
     tty: true
-
-secrets:
-  psql-user:
-    external: true
-  psql-pw:
-    external: true
-  psql-db_name:
-    external: true

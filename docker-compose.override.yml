@@ -8,7 +8,6 @@ services:
       - "8000:8000"
     volumes:
       - ./nginx/django.conf:/etc/nginx/conf.d/default.conf
-      - ./lagos_bus_route/staticfiles:/static
     depends_on:
       - web
 
@@ -16,8 +15,8 @@ services:
     restart: always
     environment:
       POSTGRES_USER_FILE: /run/secrets/psql-user
-      POSTGRES_PASSWORD: /run/secrets/psql-pw
-      POSTGRES_DB: /run/secrets/psql-db_name
+      POSTGRES_PASSWORD_FILE: /run/secrets/psql-pw
+      POSTGRES_DB_FILE: /run/secrets/psql-db_name
     secrets:
       - psql-user
       - psql-pw
