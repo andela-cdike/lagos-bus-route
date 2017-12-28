@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
 
-  nginx:
+  nginx-proxy:
     volumes:
       - ./lagos_bus_route/staticfiles:/static
 

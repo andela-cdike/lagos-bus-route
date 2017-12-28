@@ -2,9 +2,8 @@ version: '3.4'
 
 services:
 
-  nginx:
+  nginx-proxy:
     volumes:
-      - /lagos-bus-route/nginx/django.conf:/etc/nginx/conf.d/default.conf
       - lagos_bus_route-static:/lagos-bus-route/lagos_bus_route/static:ro
 
   db:

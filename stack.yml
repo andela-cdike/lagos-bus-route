@@ -121,7 +121,7 @@ services:
       VERIFY_TOKEN: NarutoIpsumDolor
     expose:
     - '8000'
-    image: electronitrix/lagosbusroute_web:latest
+    image:lectronitrix/lagosbusroute_web:latest
     restart: always
     volumes:
     - lagos_bus_route-static:/lagos-bus-route/lagos_bus_route/static:rw
