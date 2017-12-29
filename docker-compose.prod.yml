@@ -8,9 +8,9 @@ services:
 
   db:
     environment:
-      POSTGRES_USER_FILE: /run/secrets/psql-user
-      POSTGRES_PASSWORD_FILE: /run/secrets/psql-pw
-      POSTGRES_DB_FILE: /run/secrets/psql-db_name
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_NAME}
     volumes:
       - /lagos-bus-route/postgres/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
       - lagos_bus_route-data:/var/lib/postgresql/data
@@ -33,3 +33,8 @@ secrets:
 
 volumes:
   lagos_bus_route-static:
+
+
+# POSTGRES_USER_FILE: /run/secrets/psql-user
+# POSTGRES_PASSWORD_FILE: /run/secrets/psql-pw
+# POSTGRES_DB_FILE: /run/secrets/psql-db_name
