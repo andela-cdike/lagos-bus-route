@@ -61,7 +61,8 @@ services:
       - LETSENCRYPT_HOST=${HOST_NAME}
       - LETSENCRYPT_EMAIL=${EMAIL}
     expose:
-      - "8000"
+      - 80
+      - 443
     deploy:
       mode: replicated
       replicas: 1
