@@ -19,6 +19,7 @@ coverage.xml
 .python-version
 
 # dotenv
+.env
 .env.*
 env-prod
 

@@ -2,19 +2,22 @@ version: '3.4'
 
 services:
 
-  nginx-proxy:
-    volumes:
-      - lagos_bus_route-static:/lagos-bus-route/lagos_bus_route/static:ro
-
   db:
     environment:
       POSTGRES_USER_FILE: /run/secrets/psql-user
       POSTGRES_PASSWORD_FILE: /run/secrets/psql-pw
       POSTGRES_DB_FILE: /run/secrets/psql-db_name
-      POSTGRES
+    secrets:
+      - psql-user
+      - psql-pw
+      - psql-db_name
     volumes:
       - /lagos-bus-route/postgres/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
       - lagos_bus_route-data:/var/lib/postgresql/data
+
+  nginx-proxy:
+    volumes:
+      - lagos_bus_route-static:/lagos-bus-route/lagos_bus_route/static:ro
 
   web:
     image: electronitrix/lagosbusroute_web:latest

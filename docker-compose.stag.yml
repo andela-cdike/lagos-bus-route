@@ -6,27 +6,13 @@ services:
     volumes:
       - lagos_bus_route-static:/lagos-bus-route/lagos_bus_route/static:ro
 
-  db:
-    environment:
-      POSTGRES_USER_FILE: /run/secrets/psql-user
-      POSTGRES_PASSWORD_FILE: /run/secrets/psql-pw
-      POSTGRES_DB_FILE: /run/secrets/psql-db_name
-    volumes:
-      - /lagos-bus-route/postgres/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
-      - lagos_bus_route-data:/var/lib/postgresql/data
-
   web:
     build: .
     volumes:
       - lagos_bus_route-static:/lagos-bus-route/lagos_bus_route/static
 
-secrets:
-  psql-user:
-    file: /root/lagos-bus-route/secrets/psql-fake-password.txt
-  psql-pw:
-    file: /root/lagos-bus-route/secrets/psql-fake-user.txt
-  psql-db_name:
-    file: /root/lagos-bus-route/secrets/psql-fake-db_name.txt
+  celery:
+    build: .
 
 volumes:
   lagos_bus_route-static:
