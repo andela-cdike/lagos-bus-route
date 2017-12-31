@@ -10,9 +10,9 @@ if [[ $SERVICE == "web" ]]; then
     python manage.py collectstatic --noinput         # collect static files
     cp -r staticfiles/* static/                      # Copy static files to static folder
     gunicorn lagos_bus_route.wsgi:application \
-        --name lagos_bus_route \
-        --bind 0.0.0.0:8000
-elif [[ $SERVICE == "celery" ]]; then
+    --name lagos_bus_route \
+    --bind 0.0.0.0:80
+    elif [[ $SERVICE == "celery" ]]; then
     celery worker -A lagos_bus_route --loglevel=debug
 else
     echo "Unrecognized service: ${SERVICE}" 1>&2

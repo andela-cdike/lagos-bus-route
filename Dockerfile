@@ -17,24 +17,24 @@ ADD requirements.txt $PROJECT_DIR
 # single step. Correct the path to your production requirements file, if needed.
 RUN set -ex \
     && apk add --no-cache --virtual .build-deps \
-            gcc \
-            make \
-            libc-dev \
-            musl-dev \
-            linux-headers \
-            pcre-dev \
-            postgresql-dev \
+    gcc \
+    make \
+    libc-dev \
+    musl-dev \
+    linux-headers \
+    pcre-dev \
+    postgresql-dev \
     && pip install -r ../requirements.txt \
     && find /usr/local \
-        \( -type d -a -name test -o -name tests \) \
-        -o \( -type f -a -name '*.pyc' -o -name '*.pyo' \) \
-        -exec rm -rf '{}' + \
+    \( -type d -a -name test -o -name tests \) \
+    -o \( -type f -a -name '*.pyc' -o -name '*.pyo' \) \
+    -exec rm -rf '{}' + \
     && runDeps="$( \
-        scanelf --needed --nobanner --recursive /usr/local \
-                | awk '{ gsub(/,/, "\nso:", $2); print "so:" $2 }' \
-                | sort -u \
-                | xargs -r apk info --installed \
-                | sort -u \
+    scanelf --needed --nobanner --recursive /usr/local \
+    | awk '{ gsub(/,/, "\nso:", $2); print "so:" $2 }' \
+    | sort -u \
+    | xargs -r apk info --installed \
+    | sort -u \
     )" \
     && apk add --virtual .rundeps $runDeps \
     && apk del .build-deps
@@ -45,7 +45,7 @@ COPY /lagos_bus_route $APP_DIR
 
 
 # gunicorn will listen on this port
-EXPOSE 8000
+EXPOSE 80
 
 
 # copy environment file into project dir
