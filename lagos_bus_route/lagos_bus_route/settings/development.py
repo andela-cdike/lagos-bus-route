@@ -19,17 +19,15 @@ DATABASES = {
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
-    # 'formatters': {
-    #     'verbose': {
-    #         'format': '%(asctime)s [%[(levelname)s] logger=%(name)s process=%(process)d thread=%(thread)d %(message)s'
-    #     },
-    #     'json_formatter': {
-    #         '()': 'iz.settings.log_formatters.JsonLogFormatter'
-    #     }
-    # },
+    'formatters': {
+        'simple': {
+            'format': '%(asctime)s | %(levelname)s | %(message)s'
+        }
+    },
     'handlers': {
         'console': {
             'class': 'logging.StreamHandler',
+            'formatter': 'simple'
         }
     },
     'loggers': {
